@@ -24,15 +24,20 @@ from this point on, any request requires a valid session
 ### `DELETE /user`
 
 ## Notification Management
-### `GET /notifications (offset?: number, limit?: number, app?: string, includeDone?: boolean)`
+### `GET /notifications (offset?: number, limit?: number, subscription?: string, includeDone?: boolean)`
 ### `POST /notifications/done (id: string)` 
 ### `DELETE /notifications (id: string)`
 
 ### `WebSocket /ws`
 
 ## App (=Service Provider) Management
-### `GET /apps`
-### `DELETE /apps (id: string)`
+### `GET /subscriptions`
+Returns all subscriptions the user is subscribed to.
+
+### `DELETE /subscriptions(id: string)`
+
+### `GET /apps(id: string)`
+Returns the specified app information.
 
 # Backend - Service Provider Communication
 

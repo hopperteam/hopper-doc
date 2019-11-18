@@ -2,7 +2,7 @@
 ## `Notification`
   - `id: string`
   - `heading: string` 
-  - `serviceProvider: string`
+  - `subscription: string`
   - `timestamp: number` 
   - `imageUrl: string?`
   - `isDone: boolean` 
@@ -33,6 +33,11 @@
   - `isHidden: boolean`
   - `baseUrl: string`
   - `manageUrl: string?`
+  
+## `Subscription`
+  - `subscriptionId: string`
+  - `accountName?: string`
+  - `app: App`
 
 ## `SubscribeRequest`
   - `id: number` _App Id_
