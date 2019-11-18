@@ -26,6 +26,7 @@ from this point on, any request requires a valid session
 ## Notification Management
 ### `GET /notifications (offset?: number, limit?: number, subscription?: string, includeDone?: boolean)`
 ### `POST /notifications/done (id: string)` 
+### `POST /notifications/undone (id: string)`
 ### `DELETE /notifications (id: string)`
 
 ### `WebSocket /ws`
