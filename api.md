@@ -42,7 +42,7 @@ Returns the specified app information.
 
 # Backend - Service Provider Communication
 
-### `POST /app (name: string, baseUrl: string, logoUrl: string, contactEmail: string, cert: string)` 
+### `POST /app (name: string, baseUrl: string, imageUrl: string, manageUrl: string, cert: string)` 
 `cert` is a base64 encoded PEM-RSA Public Key. The private key is for authentication of the SP to the backend.
 
 ### `PUT /app (id: string, data: string)`
@@ -50,16 +50,16 @@ Returns the specified app information.
 
 Updatable fields are:
   - `name`
-  - `logoUrl`
-  - `contactEmail`
+  - `imageUrl`
+  - `manageUrl`
   - `cert`
 
 ### `POST /notification (subscriptionId: string, notification: Notification)`
 ### `PUT /notification (id: string, notification?*: Notification)`
 ### `DELETE /notification (id: string)`
 
-### `GET /subscribeRequest (id: string, base64: string): SubscribeRequest`
-### `POST /subscribeRequest (id: string, base64: string): string`
+### `GET /subscribeRequest (id: string, data: string): SubscribeRequest`
+### `POST /subscribeRequest (id: string, data: string): string`
 
 ## Subscribe Process
 Navigate the user to `GET {{HOPPER-URL}}/subscribe (id: number, request: string)`
