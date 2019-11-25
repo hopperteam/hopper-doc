@@ -18,7 +18,7 @@ To subscribe a user to a SP, the SP has to create a `SubscribeRequest` for the u
 
 The user is then navigated to this URL:
 ```URL 
-  {{hopper-instance}}/subscribe?id={{spId}}&request={{base64-request}}
+  {{hopper-instance}}/subscribe?id={{spId}}&data={{base64-request}}
 ```
 Hopper will verify the SPs identity by decoding the request with the specified public key.
 
