@@ -14,7 +14,7 @@ First, the service provider performs the `POST /app` request to sign up (availab
 To update the service provider, the `PUT /app` request is performed. The `data` object is a json object which is encrypted with the private key of the SP and base64-encoded.
 
 ## Subscription Process
-To subscribe a user to a SP, the SP has to create a `SubscripeRequest` for the user. This request gets encrypted with the private key of the SP and is then base64-encoded.
+To subscribe a user to a SP, the SP has to create a `SubscribeRequest` for the user. This request gets encrypted with the private key of the SP and is then base64-encoded.
 
 The user is then navigated to this URL:
 ```URL 
