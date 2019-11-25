@@ -18,13 +18,13 @@ To subscribe a user to a SP, the SP has to create a `SubscripeRequest` for the u
 
 The user is then navigated to this URL:
 ```URL 
-  {{hopper-instance}}/subscripe?id={{spId}}&request={{base64-request}}
+  {{hopper-instance}}/subscribe?id={{spId}}&request={{base64-request}}
 ```
 Hopper will verify the SPs identity by decoding the request with the specified public key.
 
 When the identity is verified, the user will see an UI which to login and give the SP permission. After that, the subscription is created and a `subscriptionId` is generated. 
 
-The user is navigated to the callback, specified in the `SubscripeRequest`. The user will be navigated via an `GET` request, which will receive 2 of 3 query parameters: 
+The user is navigated to the callback, specified in the `SubscribeRequest`. The user will be navigated via an `GET` request, which will receive 2 of 3 query parameters: 
   - `status`: Either `"success"` or `"failed"`
   - `error`: In case of `"failed"`: The error message.
   - `subscriptionId`: In case of `"success"`: The `subscriptionId`
