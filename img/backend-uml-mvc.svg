@@ -1,0 +1,746 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2734px" height="890px" style="height:890px;width:2734px" contentScriptType="application/ecmascript" contentStyleType="text/css" preserveAspectRatio="none" version="1.1" viewBox="0 0 2734 890" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" zoomAndPan="magnify">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <filter id="faqp5bga4g3xl" x="-1" y="-1" width="300%" height="300%">
+   <feGaussianBlur result="blurOut" stdDeviation="2.0"/>
+   <feColorMatrix in="blurOut" result="blurOut2" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/>
+   <feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/>
+   <feBlend in="SourceGraphic" in2="blurOut3"/>
+  </filter>
+ </defs>
+ <!--MD5=[5ef22bbd0a1f67a50f73f5041020c54e]
+cluster mongoose-->
+ <polygon points="2278 50 2367 50 2374 72.297 2406 72.297 2406 149 2278 149" fill="#fff" filter="url(#faqp5bga4g3xl)" stroke="#000" stroke-width="1.5"/>
+ <line x1="2278" x2="2374" y1="72.297" y2="72.297" stroke="#000" stroke-width="1.5"/>
+ <text x="2282" y="64.9951" fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="83">mongoose</text>
+ <!--MD5=[a49c2c941ba6021873bafec9daf0cd06]
+cluster express-->
+ <polygon points="989 312 1059 312 1066 334.3 1232 334.3 1232 411 989 411" fill="#fff" filter="url(#faqp5bga4g3xl)" stroke="#000" stroke-width="1.5"/>
+ <line x1="989" x2="1066" y1="334.3" y2="334.3" stroke="#000" stroke-width="1.5"/>
+ <text x="993" y="326.9951" fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="64">express</text>
+ <!--MD5=[081a5e829efc359158a0e8a52aaa6274]
+class mongoose.Document-->
+ <rect id="mongoose.Document" x="2294" y="85" width="96" height="48" fill="#f0f" filter="url(#faqp5bga4g3xl)" stroke="#A80036" stroke-width="1.5"/>
+ <ellipse cx="2309" cy="101" rx="11" ry="11" fill="#ADD1B2" stroke="#A80036"/>
+ <path d="m2311.3 96.672 0.1718 0.0781c0.2188-0.3125 0.4219-0.4062 0.7188-0.4062s0.5781 0.1406 0.7344 0.4062c0.0937 0.1563 0.1093 0.2813 0.1093 0.7188v1.4218c0 0.4219-0.0312 0.6094-0.1406 0.7657-0.1719 0.2187-0.4375 0.3593-0.7031 0.3593-0.2188 0-0.4531-0.1093-0.5938-0.25-0.1406-0.125-0.1718-0.25-0.2343-0.6562-0.0938-0.4063-0.2657-0.625-0.75-0.9063-0.4688-0.25-1.0782-0.4062-1.6563-0.4062-1.7344 0-2.9844 1.3125-2.9844 3.0937v1.0938c0 1.7031 1.2969 2.7969 3.3438 2.7969 0.7656 0 1.4531-0.125 1.875-0.3907 0.1875-0.0937 0.1875-0.0937 0.6406-0.5781 0.1875-0.1875 0.3906-0.2656 0.6094-0.2656 0.4687 0 0.8594 0.3906 0.8594 0.8437 0 0.3907-0.3282 0.8438-0.9063 1.25-0.75 0.5469-1.9062 0.8438-3.125 0.8438-2.8906 0-5-1.8906-5-4.4688v-1.125c0-2.7187 2-4.7968 4.625-4.7968 0.875 0 1.4688 0.1406 2.4063 0.5781z"/>
+ <text x="2323" y="105.1543" fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="64">Document</text>
+ <g stroke="#A80036">
+  <g stroke-width="1.5">
+   <line x1="2295" x2="2389" y1="117" y2="117"/>
+   <line x1="2295" x2="2389" y1="125" y2="125"/>
+   <!--MD5=[974b0fac639f7bff14773e1e7374a55d]
+class express.Router-->
+   <rect id="express.Router" x="1005" y="347" width="74" height="48" fill="#FEFECE" filter="url(#faqp5bga4g3xl)"/>
+  </g>
+  <ellipse cx="1020" cy="363" rx="11" ry="11" fill="#ADD1B2"/>
+ </g>
+ <path d="m1022.3 358.67 0.1718 0.0781c0.2188-0.3125 0.4219-0.4062 0.7188-0.4062s0.5781 0.1406 0.7344 0.4062c0.0937 0.1563 0.1093 0.2813 0.1093 0.7188v1.4218c0 0.4219-0.0312 0.6094-0.1406 0.7657-0.1719 0.2187-0.4375 0.3593-0.7031 0.3593-0.2188 0-0.4531-0.1093-0.5938-0.25-0.1406-0.125-0.1718-0.25-0.2343-0.6562-0.0938-0.4063-0.2657-0.625-0.75-0.9063-0.4688-0.25-1.0782-0.4062-1.6563-0.4062-1.7344 0-2.9844 1.3125-2.9844 3.0937v1.0938c0 1.7031 1.2969 2.7969 3.3438 2.7969 0.7656 0 1.4531-0.125 1.875-0.3907 0.1875-0.0937 0.1875-0.0937 0.6406-0.5781 0.1875-0.1875 0.3906-0.2656 0.6094-0.2656 0.4687 0 0.8594 0.3906 0.8594 0.8437 0 0.3907-0.3282 0.8438-0.9063 1.25-0.75 0.5469-1.9062 0.8438-3.125 0.8438-2.8906 0-5-1.8906-5-4.4688v-1.125c0-2.7187 2-4.7968 4.625-4.7968 0.875 0 1.4688 0.1406 2.4063 0.5781z"/>
+ <text x="1034" y="367.1543" fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="42">Router</text>
+ <g stroke="#A80036">
+  <g stroke-width="1.5">
+   <line x1="1006" x2="1078" y1="379" y2="379"/>
+   <line x1="1006" x2="1078" y1="387" y2="387"/>
+   <!--MD5=[a3c148198b1b626dcfea3d09ab7fa5d2]
+class express.Application-->
+   <rect id="express.Application" x="1114.5" y="347" width="101" height="48" fill="#FEFECE" filter="url(#faqp5bga4g3xl)"/>
+  </g>
+  <ellipse cx="1129.5" cy="363" rx="11" ry="11" fill="#ADD1B2"/>
+ </g>
+ <path d="m1131.8 358.67 0.1718 0.0781c0.2188-0.3125 0.4219-0.4062 0.7188-0.4062s0.5781 0.1406 0.7344 0.4062c0.0937 0.1563 0.1093 0.2813 0.1093 0.7188v1.4218c0 0.4219-0.0312 0.6094-0.1406 0.7657-0.1719 0.2187-0.4375 0.3593-0.7031 0.3593-0.2188 0-0.4531-0.1093-0.5938-0.25-0.1406-0.125-0.1718-0.25-0.2343-0.6562-0.0938-0.4063-0.2657-0.625-0.75-0.9063-0.4688-0.25-1.0782-0.4062-1.6563-0.4062-1.7344 0-2.9844 1.3125-2.9844 3.0937v1.0938c0 1.7031 1.2969 2.7969 3.3438 2.7969 0.7656 0 1.4531-0.125 1.875-0.3907 0.1875-0.0937 0.1875-0.0937 0.6406-0.5781 0.1875-0.1875 0.3906-0.2656 0.6094-0.2656 0.4687 0 0.8594 0.3906 0.8594 0.8437 0 0.3907-0.3282 0.8438-0.9063 1.25-0.75 0.5469-1.9062 0.8438-3.125 0.8438-2.8906 0-5-1.8906-5-4.4688v-1.125c0-2.7187 2-4.7968 4.625-4.7968 0.875 0 1.4688 0.1406 2.4063 0.5781z"/>
+ <text x="1143.5" y="367.1543" fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="69">Application</text>
+ <g stroke="#A80036">
+  <g stroke-width="1.5">
+   <line x1="1115.5" x2="1214.5" y1="379" y2="379"/>
+   <line x1="1115.5" x2="1214.5" y1="387" y2="387"/>
+   <!--MD5=[063d74e43144aaa0d0cf3aecd3794497]
+class Log-->
+   <rect id="Log" x="1251" y="315" width="188" height="112.02" fill="#FEFECE" filter="url(#faqp5bga4g3xl)"/>
+  </g>
+  <ellipse cx="1329.8" cy="331" rx="11" ry="11" fill="#ADD1B2"/>
+ </g>
+ <path d="m1332.1 326.67 0.1718 0.0781c0.2188-0.3125 0.4219-0.4062 0.7188-0.4062s0.5781 0.1406 0.7344 0.4062c0.0937 0.1563 0.1093 0.2813 0.1093 0.7188v1.4218c0 0.4219-0.0312 0.6094-0.1406 0.7657-0.1719 0.2187-0.4375 0.3593-0.7031 0.3593-0.2188 0-0.4531-0.1093-0.5938-0.25-0.1406-0.125-0.1718-0.25-0.2343-0.6562-0.0938-0.4063-0.2657-0.625-0.75-0.9063-0.4688-0.25-1.0782-0.4062-1.6563-0.4062-1.7344 0-2.9844 1.3125-2.9844 3.0937v1.0938c0 1.7031 1.2969 2.7969 3.3438 2.7969 0.7656 0 1.4531-0.125 1.875-0.3907 0.1875-0.0937 0.1875-0.0937 0.6406-0.5781 0.1875-0.1875 0.3906-0.2656 0.6094-0.2656 0.4687 0 0.8594 0.3906 0.8594 0.8437 0 0.3907-0.3282 0.8438-0.9063 1.25-0.75 0.5469-1.9062 0.8438-3.125 0.8438-2.8906 0-5-1.8906-5-4.4688v-1.125c0-2.7187 2-4.7968 4.625-4.7968 0.875 0 1.4688 0.1406 2.4063 0.5781z"/>
+ <text x="1350.25" y="335.1543" fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="22">Log</text>
+ <line x1="1252" x2="1438" y1="347" y2="347" stroke="#A80036" stroke-width="1.5"/>
+ <rect x="1259" y="355" width="6" height="6" fill="none" stroke="#C82930"/>
+ <text x="1271" y="361.2104" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="74">module : any</text>
+ <rect x="1259" y="367.8" width="6" height="6" fill="none" stroke="#C82930"/>
+ <text x="1271" y="374.0151" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="134">maxModuleLength : any</text>
+ <line x1="1252" x2="1438" y1="380.61" y2="380.61" stroke="#A80036" stroke-width="1.5"/>
+ <ellipse cx="1262" cy="391.61" rx="3" ry="3" fill="#84BE84" stroke="#038048"/>
+ <text x="1271" y="394.8198" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="154">info(message: string): void</text>
+ <ellipse cx="1262" cy="404.41" rx="3" ry="3" fill="#84BE84" stroke="#038048"/>
+ <text x="1271" y="407.6245" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="161">warn(message: string): void</text>
+ <ellipse cx="1262" cy="417.22" rx="3" ry="3" fill="#84BE84" stroke="#038048"/>
+ <text x="1271" y="420.4292" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="162">error(message: string): void</text>
+ <!--MD5=[cb1d040eb22e4c6da29ba1b4ad49b9c0]
+class ConfigHolder-->
+ <rect id="ConfigHolder" x="1474" y="302" width="158" height="137.63" fill="#FEFECE" filter="url(#faqp5bga4g3xl)" stroke="#A80036" stroke-width="1.5"/>
+ <ellipse cx="1509.7" cy="318" rx="11" ry="11" fill="#ADD1B2" stroke="#A80036"/>
+ <path d="m1512 313.67 0.1718 0.0781c0.2188-0.3125 0.4219-0.4062 0.7188-0.4062s0.5781 0.1406 0.7344 0.4062c0.0937 0.1563 0.1093 0.2813 0.1093 0.7188v1.4218c0 0.4219-0.0312 0.6094-0.1406 0.7657-0.1719 0.2187-0.4375 0.3593-0.7031 0.3593-0.2188 0-0.4531-0.1093-0.5938-0.25-0.1406-0.125-0.1718-0.25-0.2343-0.6562-0.0938-0.4063-0.2657-0.625-0.75-0.9063-0.4688-0.25-1.0782-0.4062-1.6563-0.4062-1.7344 0-2.9844 1.3125-2.9844 3.0937v1.0938c0 1.7031 1.2969 2.7969 3.3438 2.7969 0.7656 0 1.4531-0.125 1.875-0.3907 0.1875-0.0937 0.1875-0.0937 0.6406-0.5781 0.1875-0.1875 0.3906-0.2656 0.6094-0.2656 0.4687 0 0.8594 0.3906 0.8594 0.8437 0 0.3907-0.3282 0.8438-0.9063 1.25-0.75 0.5469-1.9062 0.8438-3.125 0.8438-2.8906 0-5-1.8906-5-4.4688v-1.125c0-2.7187 2-4.7968 4.625-4.7968 0.875 0 1.4688 0.1406 2.4063 0.5781z"/>
+ <text x="1528.3" y="322.1543" fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="80">ConfigHolder</text>
+ <line x1="1475" x2="1631" y1="334" y2="334" stroke="#A80036" stroke-width="1.5"/>
+ <ellipse cx="1485" cy="345" rx="3" ry="3" fill="none" stroke="#038048"/>
+ <text x="1494" y="348.2104" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="85">dbHost : string</text>
+ <ellipse cx="1485" cy="357.8" rx="3" ry="3" fill="none" stroke="#038048"/>
+ <text x="1494" y="361.0151" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="86">dbUser : string</text>
+ <ellipse cx="1485" cy="370.61" rx="3" ry="3" fill="none" stroke="#038048"/>
+ <text x="1494" y="373.8198" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="115">dbPassword : string</text>
+ <ellipse cx="1485" cy="383.41" rx="3" ry="3" fill="none" stroke="#038048"/>
+ <text x="1494" y="386.6245" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="92">dbName : string</text>
+ <ellipse cx="1485" cy="396.22" rx="3" ry="3" fill="none" stroke="#038048"/>
+ <text x="1494" y="399.4292" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="93">dbPort : number</text>
+ <ellipse cx="1485" cy="409.02" rx="3" ry="3" fill="none" stroke="#038048"/>
+ <text x="1494" y="412.2339" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="132">startBackend : boolean</text>
+ <ellipse cx="1485" cy="421.83" rx="3" ry="3" fill="none" stroke="#038048"/>
+ <text x="1494" y="425.0386" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="79">port : number</text>
+ <g stroke="#A80036">
+  <line x1="1475" x2="1631" y1="431.63" y2="431.63" stroke-width="1.5"/>
+  <!--MD5=[3fd616f346a44cd59a91eb10b19e157c]
+class User-->
+  <rect id="User" x="2337.5" y="315" width="127" height="112.02" fill="#f0f" filter="url(#faqp5bga4g3xl)" stroke-width="1.5"/>
+  <ellipse cx="2382.2" cy="331" rx="11" ry="11" fill="#ADD1B2"/>
+ </g>
+ <path d="m2384.6 326.67 0.1718 0.0781c0.2188-0.3125 0.4219-0.4062 0.7188-0.4062s0.5781 0.1406 0.7344 0.4062c0.0937 0.1563 0.1093 0.2813 0.1093 0.7188v1.4218c0 0.4219-0.0312 0.6094-0.1406 0.7657-0.1719 0.2187-0.4375 0.3593-0.7031 0.3593-0.2188 0-0.4531-0.1093-0.5938-0.25-0.1406-0.125-0.1718-0.25-0.2343-0.6562-0.0938-0.4063-0.2657-0.625-0.75-0.9063-0.4688-0.25-1.0782-0.4062-1.6563-0.4062-1.7344 0-2.9844 1.3125-2.9844 3.0937v1.0938c0 1.7031 1.2969 2.7969 3.3438 2.7969 0.7656 0 1.4531-0.125 1.875-0.3907 0.1875-0.0937 0.1875-0.0937 0.6406-0.5781 0.1875-0.1875 0.3906-0.2656 0.6094-0.2656 0.4687 0 0.8594 0.3906 0.8594 0.8437 0 0.3907-0.3282 0.8438-0.9063 1.25-0.75 0.5469-1.9062 0.8438-3.125 0.8438-2.8906 0-5-1.8906-5-4.4688v-1.125c0-2.7187 2-4.7968 4.625-4.7968 0.875 0 1.4688 0.1406 2.4063 0.5781z"/>
+ <text x="2402.75" y="335.1543" fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="29">User</text>
+ <line x1="2338.5" x2="2463.5" y1="347" y2="347" stroke="#A80036" stroke-width="1.5"/>
+ <ellipse cx="2348.5" cy="358" rx="3" ry="3" fill="none" stroke="#038048"/>
+ <text x="2357.5" y="361.2104" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="61">_id : string</text>
+ <ellipse cx="2348.5" cy="370.8" rx="3" ry="3" fill="none" stroke="#038048"/>
+ <text x="2357.5" y="374.0151" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="76">email : string</text>
+ <ellipse cx="2348.5" cy="383.61" rx="3" ry="3" fill="none" stroke="#038048"/>
+ <text x="2357.5" y="386.8198" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="101">password : string</text>
+ <ellipse cx="2348.5" cy="396.41" rx="3" ry="3" fill="none" stroke="#038048"/>
+ <text x="2357.5" y="399.6245" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="101">firstName : string</text>
+ <ellipse cx="2348.5" cy="409.22" rx="3" ry="3" fill="none" stroke="#038048"/>
+ <text x="2357.5" y="412.4292" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="99">lastName : string</text>
+ <g stroke="#A80036">
+  <line x1="2338.5" x2="2463.5" y1="419.02" y2="419.02" stroke-width="1.5"/>
+  <!--MD5=[545507b7baa8aade59e57dce916f0187]
+class Subscription-->
+  <rect id="Subscription" x="2232" y="557.5" width="148" height="99.219" fill="#f0f" filter="url(#faqp5bga4g3xl)" stroke-width="1.5"/>
+  <ellipse cx="2264.1" cy="573.5" rx="11" ry="11" fill="#ADD1B2"/>
+ </g>
+ <path d="m2266.4 569.17 0.1718 0.0781c0.2188-0.3125 0.4219-0.4062 0.7188-0.4062s0.5781 0.1406 0.7344 0.4062c0.0937 0.1563 0.1093 0.2813 0.1093 0.7188v1.4218c0 0.4219-0.0312 0.6094-0.1406 0.7657-0.1719 0.2187-0.4375 0.3593-0.7031 0.3593-0.2188 0-0.4531-0.1093-0.5938-0.25-0.1406-0.125-0.1718-0.25-0.2343-0.6562-0.0938-0.4063-0.2657-0.625-0.75-0.9063-0.4688-0.25-1.0782-0.4062-1.6563-0.4062-1.7344 0-2.9844 1.3125-2.9844 3.0937v1.0938c0 1.7031 1.2969 2.7969 3.3438 2.7969 0.7656 0 1.4531-0.125 1.875-0.3907 0.1875-0.0937 0.1875-0.0937 0.6406-0.5781 0.1875-0.1875 0.3906-0.2656 0.6094-0.2656 0.4687 0 0.8594 0.3906 0.8594 0.8437 0 0.3907-0.3282 0.8438-0.9063 1.25-0.75 0.5469-1.9062 0.8438-3.125 0.8438-2.8906 0-5-1.8906-5-4.4688v-1.125c0-2.7187 2-4.7968 4.625-4.7968 0.875 0 1.4688 0.1406 2.4063 0.5781z"/>
+ <text x="2281.9" y="577.6543" fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="78">Subscription</text>
+ <line x1="2233" x2="2379" y1="589.5" y2="589.5" stroke="#A80036" stroke-width="1.5"/>
+ <ellipse cx="2243" cy="600.5" rx="3" ry="3" fill="none" stroke="#038048"/>
+ <text x="2252" y="603.7104" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="61">_id : string</text>
+ <ellipse cx="2243" cy="613.3" rx="3" ry="3" fill="none" stroke="#038048"/>
+ <text x="2252" y="616.5151" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="81">userId : string</text>
+ <ellipse cx="2243" cy="626.11" rx="3" ry="3" fill="none" stroke="#038048"/>
+ <text x="2252" y="629.3198" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="122">accountName : string</text>
+ <ellipse cx="2243" cy="638.91" rx="3" ry="3" fill="none" stroke="#038048"/>
+ <text x="2252" y="642.1245" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="54">app : App</text>
+ <g stroke="#A80036">
+  <line x1="2233" x2="2379" y1="648.72" y2="648.72" stroke-width="1.5"/>
+  <!--MD5=[0aeed08ddef30626048d837b7fbd8ab5]
+class SubscribeRequest-->
+  <rect id="SubscribeRequest" x="2425" y="53" width="298" height="112.02" fill="#f0f" filter="url(#faqp5bga4g3xl)" stroke-width="1.5"/>
+  <ellipse cx="2512.8" cy="69" rx="11" ry="11" fill="#ADD1B2"/>
+ </g>
+ <path d="m2515.1 64.672 0.1718 0.0781c0.2188-0.3125 0.4219-0.4062 0.7188-0.4062s0.5781 0.1406 0.7344 0.4062c0.0937 0.1563 0.1093 0.2813 0.1093 0.7188v1.4218c0 0.4219-0.0312 0.6094-0.1406 0.7657-0.1719 0.2187-0.4375 0.3593-0.7031 0.3593-0.2188 0-0.4531-0.1093-0.5938-0.25-0.1406-0.125-0.1718-0.25-0.2343-0.6562-0.0938-0.4063-0.2657-0.625-0.75-0.9063-0.4688-0.25-1.0782-0.4062-1.6563-0.4062-1.7344 0-2.9844 1.3125-2.9844 3.0937v1.0938c0 1.7031 1.2969 2.7969 3.3438 2.7969 0.7656 0 1.4531-0.125 1.875-0.3907 0.1875-0.0937 0.1875-0.0937 0.6406-0.5781 0.1875-0.1875 0.3906-0.2656 0.6094-0.2656 0.4687 0 0.8594 0.3906 0.8594 0.8437 0 0.3907-0.3282 0.8438-0.9063 1.25-0.75 0.5469-1.9062 0.8438-3.125 0.8438-2.8906 0-5-1.8906-5-4.4688v-1.125c0-2.7187 2-4.7968 4.625-4.7968 0.875 0 1.4688 0.1406 2.4063 0.5781z"/>
+ <text x="2533.25" y="73.1543" fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="114">SubscribeRequest</text>
+ <line x1="2426" x2="2722" y1="85" y2="85" stroke="#A80036" stroke-width="1.5"/>
+ <ellipse cx="2436" cy="96" rx="3" ry="3" fill="none" stroke="#038048"/>
+ <text x="2445" y="99.2104" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="55">id : string</text>
+ <ellipse cx="2436" cy="108.8" rx="3" ry="3" fill="none" stroke="#038048"/>
+ <text x="2445" y="112.0151" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="90">callback : string</text>
+ <ellipse cx="2436" cy="121.61" rx="3" ry="3" fill="none" stroke="#038048"/>
+ <text x="2445" y="124.8198" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="77">name : string</text>
+ <ellipse cx="2436" cy="134.41" rx="3" ry="3" fill="none" stroke="#038048"/>
+ <text x="2445" y="137.6245" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="139">requestedInfos : string[]</text>
+ <line x1="2426" x2="2722" y1="144.22" y2="144.22" stroke="#A80036" stroke-width="1.5"/>
+ <ellipse cx="2436" cy="155.22" rx="3" ry="3" fill="#84BE84" stroke="#038048"/>
+ <text x="2445" y="158.4292" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="272">fromRequestBody(json: any): SubscribeRequest</text>
+ <!--MD5=[2ca1536628238a7dc78c5d90808014f9]
+class Session-->
+ <rect id="Session" x="1635" y="532" width="252" height="150.44" fill="#0f0" filter="url(#faqp5bga4g3xl)" stroke="#A80036" stroke-width="1.5"/>
+ <ellipse cx="1732.2" cy="548" rx="11" ry="11" fill="#ADD1B2" stroke="#A80036"/>
+ <path d="m1734.6 543.67 0.1718 0.0781c0.2188-0.3125 0.4219-0.4062 0.7188-0.4062s0.5781 0.1406 0.7344 0.4062c0.0937 0.1563 0.1093 0.2813 0.1093 0.7188v1.4218c0 0.4219-0.0312 0.6094-0.1406 0.7657-0.1719 0.2187-0.4375 0.3593-0.7031 0.3593-0.2188 0-0.4531-0.1093-0.5938-0.25-0.1406-0.125-0.1718-0.25-0.2343-0.6562-0.0938-0.4063-0.2657-0.625-0.75-0.9063-0.4688-0.25-1.0782-0.4062-1.6563-0.4062-1.7344 0-2.9844 1.3125-2.9844 3.0937v1.0938c0 1.7031 1.2969 2.7969 3.3438 2.7969 0.7656 0 1.4531-0.125 1.875-0.3907 0.1875-0.0937 0.1875-0.0937 0.6406-0.5781 0.1875-0.1875 0.3906-0.2656 0.6094-0.2656 0.4687 0 0.8594 0.3906 0.8594 0.8437 0 0.3907-0.3282 0.8438-0.9063 1.25-0.75 0.5469-1.9062 0.8438-3.125 0.8438-2.8906 0-5-1.8906-5-4.4688v-1.125c0-2.7187 2-4.7968 4.625-4.7968 0.875 0 1.4688 0.1406 2.4063 0.5781z"/>
+ <text x="1752.75" y="552.1543" fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="49">Session</text>
+ <line x1="1636" x2="1886" y1="564" y2="564" stroke="#A80036" stroke-width="1.5"/>
+ <ellipse cx="1646" cy="575" rx="3" ry="3" fill="none" stroke="#038048"/>
+ <text x="1655" y="578.2104" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="55">id : string</text>
+ <ellipse cx="1646" cy="587.8" rx="3" ry="3" fill="none" stroke="#038048"/>
+ <text x="1655" y="591.0151" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="81">userId : string</text>
+ <rect x="1643" y="597.61" width="6" height="6" fill="none" stroke="#C82930"/>
+ <text x="1655" y="603.8198" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="90">expTs : number</text>
+ <ellipse cx="1646" cy="613.41" rx="3" ry="3" fill="none" stroke="#038048"/>
+ <text x="1655" y="616.6245" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="108">MAX_AGE : number</text>
+ <line x1="1636" x2="1886" y1="623.22" y2="623.22" stroke="#A80036" stroke-width="1.5"/>
+ <ellipse cx="1646" cy="634.22" rx="3" ry="3" fill="#84BE84" stroke="#038048"/>
+ <text x="1655" y="637.4292" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="175">create(userId: string): Session</text>
+ <ellipse cx="1646" cy="647.02" rx="3" ry="3" fill="#84BE84" stroke="#038048"/>
+ <text x="1655" y="650.2339" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="226">findById(id: string): Session | undefined</text>
+ <ellipse cx="1646" cy="659.83" rx="3" ry="3" fill="#84BE84" stroke="#038048"/>
+ <text x="1655" y="663.0386" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="116">deleteExpired(): void</text>
+ <ellipse cx="1646" cy="672.63" rx="3" ry="3" fill="#84BE84" stroke="#038048"/>
+ <text x="1655" y="675.8433" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="213">deleteAssociated(userId: string): void</text>
+ <!--MD5=[76b5e19c9337179d2d7ae334371d68c8]
+class Notification-->
+ <rect id="Notification" x="2051.5" y="270" width="179" height="201.66" fill="#f0f" filter="url(#faqp5bga4g3xl)" stroke="#A80036" stroke-width="1.5"/>
+ <ellipse cx="2101.2" cy="286" rx="11" ry="11" fill="#ADD1B2" stroke="#A80036"/>
+ <path d="m2103.6 281.67 0.1718 0.0781c0.2188-0.3125 0.4219-0.4062 0.7188-0.4062s0.5781 0.1406 0.7344 0.4062c0.0937 0.1563 0.1093 0.2813 0.1093 0.7188v1.4218c0 0.4219-0.0312 0.6094-0.1406 0.7657-0.1719 0.2187-0.4375 0.3593-0.7031 0.3593-0.2188 0-0.4531-0.1093-0.5938-0.25-0.1406-0.125-0.1718-0.25-0.2343-0.6562-0.0938-0.4063-0.2657-0.625-0.75-0.9063-0.4688-0.25-1.0782-0.4062-1.6563-0.4062-1.7344 0-2.9844 1.3125-2.9844 3.0937v1.0938c0 1.7031 1.2969 2.7969 3.3438 2.7969 0.7656 0 1.4531-0.125 1.875-0.3907 0.1875-0.0937 0.1875-0.0937 0.6406-0.5781 0.1875-0.1875 0.3906-0.2656 0.6094-0.2656 0.4687 0 0.8594 0.3906 0.8594 0.8437 0 0.3907-0.3282 0.8438-0.9063 1.25-0.75 0.5469-1.9062 0.8438-3.125 0.8438-2.8906 0-5-1.8906-5-4.4688v-1.125c0-2.7187 2-4.7968 4.625-4.7968 0.875 0 1.4688 0.1406 2.4063 0.5781z"/>
+ <text x="2121.75" y="290.1543" fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="71">Notification</text>
+ <line x1="2052.5" x2="2229.5" y1="302" y2="302" stroke="#A80036" stroke-width="1.5"/>
+ <ellipse cx="2062.5" cy="313" rx="3" ry="3" fill="none" stroke="#038048"/>
+ <text x="2071.5" y="316.2104" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="61">_id : string</text>
+ <ellipse cx="2062.5" cy="325.8" rx="3" ry="3" fill="none" stroke="#038048"/>
+ <text x="2071.5" y="329.0151" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="81">userId : string</text>
+ <ellipse cx="2062.5" cy="338.61" rx="3" ry="3" fill="none" stroke="#038048"/>
+ <text x="2071.5" y="341.8198" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="90">heading : string</text>
+ <ellipse cx="2062.5" cy="351.41" rx="3" ry="3" fill="none" stroke="#038048"/>
+ <text x="2071.5" y="354.6245" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="153">subscription : Subscription</text>
+ <ellipse cx="2062.5" cy="364.22" rx="3" ry="3" fill="none" stroke="#038048"/>
+ <text x="2071.5" y="367.4292" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="117">timestamp : number</text>
+ <ellipse cx="2062.5" cy="377.02" rx="3" ry="3" fill="none" stroke="#038048"/>
+ <text x="2071.5" y="380.2339" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="96">imageUrl : string</text>
+ <ellipse cx="2062.5" cy="389.83" rx="3" ry="3" fill="none" stroke="#038048"/>
+ <text x="2071.5" y="393.0386" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="71">isDone : any</text>
+ <ellipse cx="2062.5" cy="402.63" rx="3" ry="3" fill="none" stroke="#038048"/>
+ <text x="2071.5" y="405.8433" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="99">isSilent : boolean</text>
+ <ellipse cx="2062.5" cy="415.44" rx="3" ry="3" fill="none" stroke="#038048"/>
+ <text x="2071.5" y="418.6479" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="115">isArchived : boolean</text>
+ <ellipse cx="2062.5" cy="428.24" rx="3" ry="3" fill="none" stroke="#038048"/>
+ <text x="2071.5" y="431.4526" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="69">type : string</text>
+ <ellipse cx="2062.5" cy="441.05" rx="3" ry="3" fill="none" stroke="#038048"/>
+ <text x="2071.5" y="444.2573" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="87">content : string</text>
+ <ellipse cx="2062.5" cy="453.85" rx="3" ry="3" fill="none" stroke="#038048"/>
+ <text x="2071.5" y="457.062" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="135">actions : Array&lt;Action&gt;</text>
+ <g stroke="#A80036">
+  <line x1="2052.5" x2="2229.5" y1="463.66" y2="463.66" stroke-width="1.5"/>
+  <!--MD5=[335f4d9be48430461c68bf6d6fdba145]
+class App-->
+  <rect id="App" x="2322.5" y="742" width="201" height="137.63" fill="#f0f" filter="url(#faqp5bga4g3xl)" stroke-width="1.5"/>
+  <ellipse cx="2406.8" cy="758" rx="11" ry="11" fill="#ADD1B2"/>
+ </g>
+ <path d="m2409.1 753.67 0.1718 0.0781c0.2188-0.3125 0.4219-0.4062 0.7188-0.4062s0.5781 0.1406 0.7344 0.4062c0.0937 0.1563 0.1093 0.2813 0.1093 0.7188v1.4218c0 0.4219-0.0312 0.6094-0.1406 0.7657-0.1719 0.2187-0.4375 0.3593-0.7031 0.3593-0.2188 0-0.4531-0.1093-0.5938-0.25-0.1406-0.125-0.1718-0.25-0.2343-0.6562-0.0938-0.4063-0.2657-0.625-0.75-0.9063-0.4688-0.25-1.0782-0.4062-1.6563-0.4062-1.7344 0-2.9844 1.3125-2.9844 3.0937v1.0938c0 1.7031 1.2969 2.7969 3.3438 2.7969 0.7656 0 1.4531-0.125 1.875-0.3907 0.1875-0.0937 0.1875-0.0937 0.6406-0.5781 0.1875-0.1875 0.3906-0.2656 0.6094-0.2656 0.4687 0 0.8594 0.3906 0.8594 0.8437 0 0.3907-0.3282 0.8438-0.9063 1.25-0.75 0.5469-1.9062 0.8438-3.125 0.8438-2.8906 0-5-1.8906-5-4.4688v-1.125c0-2.7187 2-4.7968 4.625-4.7968 0.875 0 1.4688 0.1406 2.4063 0.5781z"/>
+ <text x="2427.25" y="762.1543" fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="24">App</text>
+ <line x1="2323.5" x2="2522.5" y1="774" y2="774" stroke="#A80036" stroke-width="1.5"/>
+ <ellipse cx="2333.5" cy="785" rx="3" ry="3" fill="none" stroke="#038048"/>
+ <text x="2342.5" y="788.2104" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="61">_id : string</text>
+ <ellipse cx="2333.5" cy="797.8" rx="3" ry="3" fill="none" stroke="#038048"/>
+ <text x="2342.5" y="801.0151" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="77">name : string</text>
+ <ellipse cx="2333.5" cy="810.61" rx="3" ry="3" fill="none" stroke="#038048"/>
+ <text x="2342.5" y="813.8198" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="96">imageUrl : string</text>
+ <ellipse cx="2333.5" cy="823.41" rx="3" ry="3" fill="none" stroke="#038048"/>
+ <text x="2342.5" y="826.6245" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="106">isHidden : boolean</text>
+ <ellipse cx="2333.5" cy="836.22" rx="3" ry="3" fill="none" stroke="#038048"/>
+ <text x="2342.5" y="839.4292" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="89">baseUrl : string</text>
+ <ellipse cx="2333.5" cy="849.02" rx="3" ry="3" fill="none" stroke="#038048"/>
+ <text x="2342.5" y="852.2339" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="175">manageUrl : string | undefined</text>
+ <ellipse cx="2333.5" cy="861.83" rx="3" ry="3" fill="none" stroke="#038048"/>
+ <text x="2342.5" y="865.0386" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="67">cert : string</text>
+ <g stroke="#A80036">
+  <line x1="2323.5" x2="2522.5" y1="871.63" y2="871.63" stroke-width="1.5"/>
+  <!--MD5=[f8e7078f77c005d15b486c0c98deb1e6]
+class Action-->
+  <rect id="Action" x="2041.5" y="557.5" width="155" height="99.219" fill="#f0f" filter="url(#faqp5bga4g3xl)" stroke-width="1.5"/>
+  <ellipse cx="2095.2" cy="573.5" rx="11" ry="11" fill="#ADD1B2"/>
+ </g>
+ <path d="m2097.6 569.17 0.1718 0.0781c0.2188-0.3125 0.4219-0.4062 0.7188-0.4062s0.5781 0.1406 0.7344 0.4062c0.0937 0.1563 0.1093 0.2813 0.1093 0.7188v1.4218c0 0.4219-0.0312 0.6094-0.1406 0.7657-0.1719 0.2187-0.4375 0.3593-0.7031 0.3593-0.2188 0-0.4531-0.1093-0.5938-0.25-0.1406-0.125-0.1718-0.25-0.2343-0.6562-0.0938-0.4063-0.2657-0.625-0.75-0.9063-0.4688-0.25-1.0782-0.4062-1.6563-0.4062-1.7344 0-2.9844 1.3125-2.9844 3.0937v1.0938c0 1.7031 1.2969 2.7969 3.3438 2.7969 0.7656 0 1.4531-0.125 1.875-0.3907 0.1875-0.0937 0.1875-0.0937 0.6406-0.5781 0.1875-0.1875 0.3906-0.2656 0.6094-0.2656 0.4687 0 0.8594 0.3906 0.8594 0.8437 0 0.3907-0.3282 0.8438-0.9063 1.25-0.75 0.5469-1.9062 0.8438-3.125 0.8438-2.8906 0-5-1.8906-5-4.4688v-1.125c0-2.7187 2-4.7968 4.625-4.7968 0.875 0 1.4688 0.1406 2.4063 0.5781z"/>
+ <text x="2115.75" y="577.6543" fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="39">Action</text>
+ <line x1="2042.5" x2="2195.5" y1="589.5" y2="589.5" stroke="#A80036" stroke-width="1.5"/>
+ <ellipse cx="2052.5" cy="600.5" rx="3" ry="3" fill="none" stroke="#038048"/>
+ <text x="2061.5" y="603.7104" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="69">type : string</text>
+ <ellipse cx="2052.5" cy="613.3" rx="3" ry="3" fill="none" stroke="#038048"/>
+ <text x="2061.5" y="616.5151" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="60">url : string</text>
+ <ellipse cx="2052.5" cy="626.11" rx="3" ry="3" fill="none" stroke="#038048"/>
+ <text x="2061.5" y="629.3198" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="129">markAsDone : boolean</text>
+ <ellipse cx="2052.5" cy="638.91" rx="3" ry="3" fill="none" stroke="#038048"/>
+ <text x="2061.5" y="642.1245" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="66">text : string</text>
+ <g stroke="#A80036">
+  <line x1="2042.5" x2="2195.5" y1="648.72" y2="648.72" stroke-width="1.5"/>
+  <!--MD5=[0851f84a889f989e7bb0bebc385d0f09]
+class Request-->
+  <rect id="Request" x="1667.5" y="340.5" width="129" height="60.805" fill="#0f0" filter="url(#faqp5bga4g3xl)" stroke-width="1.5"/>
+  <ellipse cx="1703.2" cy="356.5" rx="11" ry="11" fill="#B4A7E5"/>
+ </g>
+ <path d="m1704.2 353.28v6.5156h1.7188c0.4531 0 0.5937 0.0312 0.7656 0.1562 0.2344 0.1719 0.3438 0.4219 0.3438 0.7032 0 0.5625-0.3594 0.8437-1.1094 0.8437h-5.1406c-0.4063 0-0.6094-0.0469-0.7657-0.1719-0.2187-0.1562-0.3593-0.4218-0.3593-0.6718 0-0.2969 0.1562-0.5782 0.4062-0.7344 0.1563-0.1094 0.2813-0.125 0.7188-0.125h1.7187v-6.5156h-1.7187c-0.4219 0-0.6094-0.0313-0.7657-0.1407-0.2187-0.1718-0.3593-0.4218-0.3593-0.7031 0-0.2812 0.1562-0.5781 0.4062-0.7344 0.1563-0.0937 0.2813-0.1093 0.7188-0.1093h5.1406c0.4531 0 0.5937 0.0312 0.7656 0.1406 0.2344 0.1719 0.3438 0.4375 0.3438 0.7031 0 0.2969-0.1407 0.5781-0.4063 0.7344-0.125 0.0781-0.3125 0.1094-0.7031 0.1094z"/>
+ <text x="1721.8" y="360.6543" fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="51">Request</text>
+ <line x1="1668.5" x2="1795.5" y1="372.5" y2="372.5" stroke="#A80036" stroke-width="1.5"/>
+ <ellipse cx="1678.5" cy="383.5" rx="3" ry="3" fill="none" stroke="#038048"/>
+ <text x="1687.5" y="386.7104" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="103">session : Session</text>
+ <g stroke="#A80036">
+  <line x1="1668.5" x2="1795.5" y1="393.3" y2="393.3" stroke-width="1.5"/>
+  <!--MD5=[06781a53d152b74966533a6255748241]
+class AuthMiddleware-->
+  <rect id="AuthMiddleware" x="1832" y="328" width="184" height="86.414" fill="#0f0" filter="url(#faqp5bga4g3xl)" stroke-width="1.5"/>
+  <ellipse cx="1870.8" cy="344" rx="11" ry="11" fill="#ADD1B2"/>
+ </g>
+ <path d="m1873.2 339.67 0.1718 0.0781c0.2188-0.3125 0.4219-0.4062 0.7188-0.4062s0.5781 0.1406 0.7344 0.4062c0.0937 0.1563 0.1093 0.2813 0.1093 0.7188v1.4218c0 0.4219-0.0312 0.6094-0.1406 0.7657-0.1719 0.2187-0.4375 0.3593-0.7031 0.3593-0.2188 0-0.4531-0.1093-0.5938-0.25-0.1406-0.125-0.1718-0.25-0.2343-0.6562-0.0938-0.4063-0.2657-0.625-0.75-0.9063-0.4688-0.25-1.0782-0.4062-1.6563-0.4062-1.7344 0-2.9844 1.3125-2.9844 3.0937v1.0938c0 1.7031 1.2969 2.7969 3.3438 2.7969 0.7656 0 1.4531-0.125 1.875-0.3907 0.1875-0.0937 0.1875-0.0937 0.6406-0.5781 0.1875-0.1875 0.3906-0.2656 0.6094-0.2656 0.4687 0 0.8594 0.3906 0.8594 0.8437 0 0.3907-0.3282 0.8438-0.9063 1.25-0.75 0.5469-1.9062 0.8438-3.125 0.8438-2.8906 0-5-1.8906-5-4.4688v-1.125c0-2.7187 2-4.7968 4.625-4.7968 0.875 0 1.4688 0.1406 2.4063 0.5781z"/>
+ <text x="1890.15" y="348.1543" fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="99">AuthMiddleware</text>
+ <line x1="1833" x2="2015" y1="360" y2="360" stroke="#A80036" stroke-width="1.5"/>
+ <rect x="1840" y="368" width="6" height="6" fill="none" stroke="#C82930"/>
+ <text x="1852" y="374.2104" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="158">sessions : Array&lt;Session&gt;</text>
+ <line x1="1833" x2="2015" y1="380.8" y2="380.8" stroke="#A80036" stroke-width="1.5"/>
+ <ellipse cx="1843" cy="391.8" rx="3" ry="3" fill="#84BE84" stroke="#038048"/>
+ <text x="1852" y="395.0151" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="135">auth(): express.Handler</text>
+ <ellipse cx="1843" cy="404.61" rx="3" ry="3" fill="#84BE84" stroke="#038048"/>
+ <text x="1852" y="407.8198" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="85">daemon(): void</text>
+ <!--MD5=[a83d828be13d333e1fddb3d4d9d97191]
+class Handler-->
+ <rect id="Handler" x="530" y="66" width="184" height="86.414" fill="#ff0" filter="url(#faqp5bga4g3xl)" stroke="#A80036" stroke-width="1.5"/>
+ <ellipse cx="593.25" cy="82" rx="11" ry="11" fill="#ADD1B2" stroke="#A80036"/>
+ <path d="m595.59 77.672 0.1718 0.0781c0.2188-0.3125 0.4219-0.4062 0.7188-0.4062s0.5781 0.1406 0.7344 0.4062c0.0937 0.1563 0.1093 0.2813 0.1093 0.7188v1.4218c0 0.4219-0.0312 0.6094-0.1406 0.7657-0.1719 0.2187-0.4375 0.3593-0.7031 0.3593-0.2188 0-0.4531-0.1093-0.5938-0.25-0.1406-0.125-0.1718-0.25-0.2343-0.6562-0.0938-0.4063-0.2657-0.625-0.75-0.9063-0.4688-0.25-1.0782-0.4062-1.6563-0.4062-1.7344 0-2.9844 1.3125-2.9844 3.0937v1.0938c0 1.7031 1.2969 2.7969 3.3438 2.7969 0.7656 0 1.4531-0.125 1.875-0.3907 0.1875-0.0937 0.1875-0.0937 0.6406-0.5781 0.1875-0.1875 0.3906-0.2656 0.6094-0.2656 0.4687 0 0.8594 0.3906 0.8594 0.8437 0 0.3907-0.3282 0.8438-0.9063 1.25-0.75 0.5469-1.9062 0.8438-3.125 0.8438-2.8906 0-5-1.8906-5-4.4688v-1.125c0-2.7187 2-4.7968 4.625-4.7968 0.875 0 1.4688 0.1406 2.4063 0.5781z"/>
+ <text x="613.75" y="86.1543" fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="49">Handler</text>
+ <line x1="531" x2="713" y1="98" y2="98" stroke="#A80036" stroke-width="1.5"/>
+ <polygon points="541 104 545 108 541 112 537 108" fill="none" stroke="#B38D22"/>
+ <text x="550" y="112.2104" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="134">router : express.Router</text>
+ <rect x="538" y="118.8" width="6" height="6" fill="none" stroke="#C82930"/>
+ <text x="550" y="125.0151" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="68">logger : Log</text>
+ <line x1="531" x2="713" y1="131.61" y2="131.61" stroke="#A80036" stroke-width="1.5"/>
+ <ellipse cx="541" cy="142.61" rx="3" ry="3" fill="#84BE84" stroke="#038048"/>
+ <text x="550" y="145.8198" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="158">getRouter(): express.Router</text>
+ <!--MD5=[2a4e54f6a4182fe25cccaf89cd34d22c]
+class UserHandler-->
+ <rect id="UserHandler" x="189" y="328" width="120" height="86.414" fill="#ff0" filter="url(#faqp5bga4g3xl)" stroke="#A80036" stroke-width="1.5"/>
+ <ellipse cx="208.5" cy="344" rx="11" ry="11" fill="#ADD1B2" stroke="#A80036"/>
+ <path d="m210.84 339.67 0.1718 0.0781c0.2188-0.3125 0.4219-0.4062 0.7188-0.4062s0.5781 0.1406 0.7344 0.4062c0.0937 0.1563 0.1093 0.2813 0.1093 0.7188v1.4218c0 0.4219-0.0312 0.6094-0.1406 0.7657-0.1719 0.2187-0.4375 0.3593-0.7031 0.3593-0.2188 0-0.4531-0.1093-0.5938-0.25-0.1406-0.125-0.1718-0.25-0.2343-0.6562-0.0938-0.4063-0.2657-0.625-0.75-0.9063-0.4688-0.25-1.0782-0.4062-1.6563-0.4062-1.7344 0-2.9844 1.3125-2.9844 3.0937v1.0938c0 1.7031 1.2969 2.7969 3.3438 2.7969 0.7656 0 1.4531-0.125 1.875-0.3907 0.1875-0.0937 0.1875-0.0937 0.6406-0.5781 0.1875-0.1875 0.3906-0.2656 0.6094-0.2656 0.4687 0 0.8594 0.3906 0.8594 0.8437 0 0.3907-0.3282 0.8438-0.9063 1.25-0.75 0.5469-1.9062 0.8438-3.125 0.8438-2.8906 0-5-1.8906-5-4.4688v-1.125c0-2.7187 2-4.7968 4.625-4.7968 0.875 0 1.4688 0.1406 2.4063 0.5781z"/>
+ <text x="223.5" y="348.1543" fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="78">UserHandler</text>
+ <line x1="190" x2="308" y1="360" y2="360" stroke="#A80036" stroke-width="1.5"/>
+ <rect x="197" y="368" width="6" height="6" fill="none" stroke="#C82930"/>
+ <text x="209" y="374.2104" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="77">getUser : any</text>
+ <rect x="197" y="380.8" width="6" height="6" fill="none" stroke="#C82930"/>
+ <text x="209" y="387.0151" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="77">putUser : any</text>
+ <rect x="197" y="393.61" width="6" height="6" fill="none" stroke="#C82930"/>
+ <text x="209" y="399.8198" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="94">deleteUser : any</text>
+ <g stroke="#A80036">
+  <line x1="190" x2="308" y1="406.41" y2="406.41" stroke-width="1.5"/>
+  <!--MD5=[e883be3893548ec7c182fa914abede3d]
+class SubscriptionHandler-->
+  <rect id="SubscriptionHandler" x="344" y="315" width="186" height="112.02" fill="#ff0" filter="url(#faqp5bga4g3xl)" stroke-width="1.5"/>
+  <ellipse cx="371.15" cy="331" rx="11" ry="11" fill="#ADD1B2"/>
+ </g>
+ <path d="m373.49 326.67 0.1718 0.0781c0.2188-0.3125 0.4219-0.4062 0.7188-0.4062s0.5781 0.1406 0.7344 0.4062c0.0937 0.1563 0.1093 0.2813 0.1093 0.7188v1.4218c0 0.4219-0.0312 0.6094-0.1406 0.7657-0.1719 0.2187-0.4375 0.3593-0.7031 0.3593-0.2188 0-0.4531-0.1093-0.5938-0.25-0.1406-0.125-0.1718-0.25-0.2343-0.6562-0.0938-0.4063-0.2657-0.625-0.75-0.9063-0.4688-0.25-1.0782-0.4062-1.6563-0.4062-1.7344 0-2.9844 1.3125-2.9844 3.0937v1.0938c0 1.7031 1.2969 2.7969 3.3438 2.7969 0.7656 0 1.4531-0.125 1.875-0.3907 0.1875-0.0937 0.1875-0.0937 0.6406-0.5781 0.1875-0.1875 0.3906-0.2656 0.6094-0.2656 0.4687 0 0.8594 0.3906 0.8594 0.8437 0 0.3907-0.3282 0.8438-0.9063 1.25-0.75 0.5469-1.9062 0.8438-3.125 0.8438-2.8906 0-5-1.8906-5-4.4688v-1.125c0-2.7187 2-4.7968 4.625-4.7968 0.875 0 1.4688 0.1406 2.4063 0.5781z"/>
+ <text x="387.85" y="335.1543" fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="127">SubscriptionHandler</text>
+ <line x1="345" x2="529" y1="347" y2="347" stroke="#A80036" stroke-width="1.5"/>
+ <rect x="352" y="355" width="6" height="6" fill="none" stroke="#C82930"/>
+ <text x="364" y="361.2104" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="71">getApp : any</text>
+ <rect x="352" y="367.8" width="6" height="6" fill="none" stroke="#C82930"/>
+ <text x="364" y="374.0151" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="128">getSubscriptions : any</text>
+ <rect x="352" y="380.61" width="6" height="6" fill="none" stroke="#C82930"/>
+ <text x="364" y="386.8198" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="138">deleteSubscription : any</text>
+ <rect x="352" y="393.41" width="6" height="6" fill="none" stroke="#C82930"/>
+ <text x="364" y="399.6245" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="153">getSubscribeRequest : any</text>
+ <rect x="352" y="406.22" width="6" height="6" fill="none" stroke="#C82930"/>
+ <text x="364" y="412.4292" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="160">postSubscribeRequest : any</text>
+ <g stroke="#A80036">
+  <line x1="345" x2="529" y1="419.02" y2="419.02" stroke-width="1.5"/>
+  <!--MD5=[e9a5215718d2e517dd8cfaf5212ed360]
+class SPHandler-->
+  <rect id="SPHandler" x="565" y="315" width="156" height="112.02" fill="#ff0" filter="url(#faqp5bga4g3xl)" stroke-width="1.5"/>
+  <ellipse cx="606.55" cy="331" rx="11" ry="11" fill="#ADD1B2"/>
+ </g>
+ <path d="m608.89 326.67 0.1718 0.0781c0.2188-0.3125 0.4219-0.4062 0.7188-0.4062s0.5781 0.1406 0.7344 0.4062c0.0937 0.1563 0.1093 0.2813 0.1093 0.7188v1.4218c0 0.4219-0.0312 0.6094-0.1406 0.7657-0.1719 0.2187-0.4375 0.3593-0.7031 0.3593-0.2188 0-0.4531-0.1093-0.5938-0.25-0.1406-0.125-0.1718-0.25-0.2343-0.6562-0.0938-0.4063-0.2657-0.625-0.75-0.9063-0.4688-0.25-1.0782-0.4062-1.6563-0.4062-1.7344 0-2.9844 1.3125-2.9844 3.0937v1.0938c0 1.7031 1.2969 2.7969 3.3438 2.7969 0.7656 0 1.4531-0.125 1.875-0.3907 0.1875-0.0937 0.1875-0.0937 0.6406-0.5781 0.1875-0.1875 0.3906-0.2656 0.6094-0.2656 0.4687 0 0.8594 0.3906 0.8594 0.8437 0 0.3907-0.3282 0.8438-0.9063 1.25-0.75 0.5469-1.9062 0.8438-3.125 0.8438-2.8906 0-5-1.8906-5-4.4688v-1.125c0-2.7187 2-4.7968 4.625-4.7968 0.875 0 1.4688 0.1406 2.4063 0.5781z"/>
+ <text x="626.45" y="335.1543" fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="65">SPHandler</text>
+ <line x1="566" x2="720" y1="347" y2="347" stroke="#A80036" stroke-width="1.5"/>
+ <rect x="573" y="355" width="6" height="6" fill="none" stroke="#C82930"/>
+ <text x="585" y="361.2104" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="78">postApp : any</text>
+ <rect x="573" y="367.8" width="6" height="6" fill="none" stroke="#C82930"/>
+ <text x="585" y="374.0151" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="71">putApp : any</text>
+ <rect x="573" y="380.61" width="6" height="6" fill="none" stroke="#C82930"/>
+ <text x="585" y="386.8198" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="120">postNotification : any</text>
+ <rect x="573" y="393.41" width="6" height="6" fill="none" stroke="#C82930"/>
+ <text x="585" y="399.6245" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="113">putNotification : any</text>
+ <rect x="573" y="406.22" width="6" height="6" fill="none" stroke="#C82930"/>
+ <text x="585" y="412.4292" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="130">deleteNotification : any</text>
+ <g stroke="#A80036">
+  <line x1="566" x2="720" y1="419.02" y2="419.02" stroke-width="1.5"/>
+  <!--MD5=[fc77a0a9f533582e2a31043d1a44d081]
+class NotificationHandler-->
+  <rect id="NotificationHandler" x="756" y="321.5" width="214" height="99.219" fill="#ff0" filter="url(#faqp5bga4g3xl)" stroke-width="1.5"/>
+  <ellipse cx="798.9" cy="337.5" rx="11" ry="11" fill="#ADD1B2"/>
+ </g>
+ <path d="m801.24 333.17 0.1718 0.0781c0.2188-0.3125 0.4219-0.4062 0.7188-0.4062s0.5781 0.1406 0.7344 0.4062c0.0937 0.1563 0.1093 0.2813 0.1093 0.7188v1.4218c0 0.4219-0.0312 0.6094-0.1406 0.7657-0.1719 0.2187-0.4375 0.3593-0.7031 0.3593-0.2188 0-0.4531-0.1093-0.5938-0.25-0.1406-0.125-0.1718-0.25-0.2343-0.6562-0.0938-0.4063-0.2657-0.625-0.75-0.9063-0.4688-0.25-1.0782-0.4062-1.6563-0.4062-1.7344 0-2.9844 1.3125-2.9844 3.0937v1.0938c0 1.7031 1.2969 2.7969 3.3438 2.7969 0.7656 0 1.4531-0.125 1.875-0.3907 0.1875-0.0937 0.1875-0.0937 0.6406-0.5781 0.1875-0.1875 0.3906-0.2656 0.6094-0.2656 0.4687 0 0.8594 0.3906 0.8594 0.8437 0 0.3907-0.3282 0.8438-0.9063 1.25-0.75 0.5469-1.9062 0.8438-3.125 0.8438-2.8906 0-5-1.8906-5-4.4688v-1.125c0-2.7187 2-4.7968 4.625-4.7968 0.875 0 1.4688 0.1406 2.4063 0.5781z"/>
+ <text x="819.1" y="341.6543" fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="120">NotificationHandler</text>
+ <line x1="757" x2="969" y1="353.5" y2="353.5" stroke="#A80036" stroke-width="1.5"/>
+ <rect x="764" y="361.5" width="6" height="6" fill="none" stroke="#C82930"/>
+ <text x="776" y="367.7104" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="120">getNotifications : any</text>
+ <rect x="764" y="374.3" width="6" height="6" fill="none" stroke="#C82930"/>
+ <text x="776" y="380.5151" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="174">markNotificationsAsDone : any</text>
+ <rect x="764" y="387.11" width="6" height="6" fill="none" stroke="#C82930"/>
+ <text x="776" y="393.3198" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="188">markNotificationsAsUndone : any</text>
+ <rect x="764" y="399.91" width="6" height="6" fill="none" stroke="#C82930"/>
+ <text x="776" y="406.1245" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="137">deleteNotifications : any</text>
+ <g stroke="#A80036">
+  <line x1="757" x2="969" y1="412.72" y2="412.72" stroke-width="1.5"/>
+  <!--MD5=[f14c542ced4965609e0be3c0b87da731]
+class GeneralHandler-->
+  <rect id="GeneralHandler" x="6" y="321.5" width="148" height="99.219" fill="#ff0" filter="url(#faqp5bga4g3xl)" stroke-width="1.5"/>
+  <ellipse cx="29.1" cy="337.5" rx="11" ry="11" fill="#ADD1B2"/>
+ </g>
+ <path d="m31.444 333.17 0.1718 0.0781c0.2188-0.3125 0.4219-0.4062 0.7188-0.4062s0.5781 0.1406 0.7344 0.4062c0.0937 0.1563 0.1093 0.2813 0.1093 0.7188v1.4218c0 0.4219-0.0312 0.6094-0.1406 0.7657-0.1719 0.2187-0.4375 0.3593-0.7031 0.3593-0.2188 0-0.4531-0.1093-0.5938-0.25-0.1406-0.125-0.1718-0.25-0.2343-0.6562-0.0938-0.4063-0.2657-0.625-0.75-0.9063-0.4688-0.25-1.0782-0.4062-1.6563-0.4062-1.7344 0-2.9844 1.3125-2.9844 3.0937v1.0938c0 1.7031 1.2969 2.7969 3.3438 2.7969 0.7656 0 1.4531-0.125 1.875-0.3907 0.1875-0.0937 0.1875-0.0937 0.6406-0.5781 0.1875-0.1875 0.3906-0.2656 0.6094-0.2656 0.4687 0 0.8594 0.3906 0.8594 0.8437 0 0.3907-0.3282 0.8438-0.9063 1.25-0.75 0.5469-1.9062 0.8438-3.125 0.8438-2.8906 0-5-1.8906-5-4.4688v-1.125c0-2.7187 2-4.7968 4.625-4.7968 0.875 0 1.4688 0.1406 2.4063 0.5781z"/>
+ <text x="44.9" y="341.6543" fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="98">GeneralHandler</text>
+ <line x1="7" x2="153" y1="353.5" y2="353.5" stroke="#A80036" stroke-width="1.5"/>
+ <rect x="14" y="361.5" width="6" height="6" fill="none" stroke="#C82930"/>
+ <text x="26" y="367.7104" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="56">ping : any</text>
+ <rect x="14" y="374.3" width="6" height="6" fill="none" stroke="#C82930"/>
+ <text x="26" y="380.5151" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="59">login : any</text>
+ <rect x="14" y="387.11" width="6" height="6" fill="none" stroke="#C82930"/>
+ <text x="26" y="393.3198" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="77">register : any</text>
+ <rect x="14" y="399.91" width="6" height="6" fill="none" stroke="#C82930"/>
+ <text x="26" y="406.1245" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="122">forgetPassword : any</text>
+ <g stroke="#A80036">
+  <line x1="7" x2="153" y1="412.72" y2="412.72" stroke-width="1.5"/>
+  <!--MD5=[f9d9777b41f203871db378981f257aab]
+class HopperApp-->
+  <rect id="HopperApp" x="749.5" y="8" width="267" height="201.66" fill="#FEFECE" filter="url(#faqp5bga4g3xl)" stroke-width="1.5"/>
+  <ellipse cx="843.75" cy="24" rx="11" ry="11" fill="#ADD1B2"/>
+ </g>
+ <path d="m846.09 19.672 0.1718 0.0781c0.2188-0.3125 0.4219-0.4062 0.7188-0.4062s0.5781 0.1406 0.7344 0.4062c0.0937 0.1563 0.1093 0.2813 0.1093 0.7188v1.4218c0 0.4219-0.0312 0.6094-0.1406 0.7657-0.1719 0.2187-0.4375 0.3593-0.7031 0.3593-0.2188 0-0.4531-0.1093-0.5938-0.25-0.1406-0.125-0.1718-0.25-0.2343-0.6562-0.0938-0.4063-0.2657-0.625-0.75-0.9063-0.4688-0.25-1.0782-0.4062-1.6563-0.4062-1.7344 0-2.9844 1.3125-2.9844 3.0937v1.0938c0 1.7031 1.2969 2.7969 3.3438 2.7969 0.7656 0 1.4531-0.125 1.875-0.3907 0.1875-0.0937 0.1875-0.0937 0.6406-0.5781 0.1875-0.1875 0.3906-0.2656 0.6094-0.2656 0.4687 0 0.8594 0.3906 0.8594 0.8437 0 0.3907-0.3282 0.8438-0.9063 1.25-0.75 0.5469-1.9062 0.8438-3.125 0.8438-2.8906 0-5-1.8906-5-4.4688v-1.125c0-2.7187 2-4.7968 4.625-4.7968 0.875 0 1.4688 0.1406 2.4063 0.5781z"/>
+ <text x="864.25" y="28.1543" fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="70">HopperApp</text>
+ <line x1="750.5" x2="1015.5" y1="40" y2="40" stroke="#A80036" stroke-width="1.5"/>
+ <rect x="757.5" y="48" width="6" height="6" fill="none" stroke="#C82930"/>
+ <text x="769.5" y="54.2104" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="160">server : express.Application</text>
+ <rect x="757.5" y="60.805" width="6" height="6" fill="none" stroke="#C82930"/>
+ <text x="769.5" y="67.0151" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="188">generalHandler : GeneralHandler</text>
+ <rect x="757.5" y="73.609" width="6" height="6" fill="none" stroke="#C82930"/>
+ <text x="769.5" y="79.8198" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="129">spHandler : SPHandler</text>
+ <rect x="757.5" y="86.414" width="6" height="6" fill="none" stroke="#C82930"/>
+ <text x="769.5" y="92.6245" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="153">userHandler : UserHandler</text>
+ <rect x="757.5" y="99.219" width="6" height="6" fill="none" stroke="#C82930"/>
+ <text x="769.5" y="105.4292" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="225">notificationHandler : NotificationHandler</text>
+ <rect x="757.5" y="112.02" width="6" height="6" fill="none" stroke="#C82930"/>
+ <text x="769.5" y="118.2339" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="241">subscriptionHandler : SubscriptionHandler</text>
+ <rect x="757.5" y="124.83" width="6" height="6" fill="none" stroke="#C82930"/>
+ <text x="769.5" y="131.0386" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="190">authMiddleware : AuthMiddleware</text>
+ <rect x="757.5" y="137.63" width="6" height="6" fill="none" stroke="#C82930"/>
+ <text x="769.5" y="143.8433" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="49">log : Log</text>
+ <rect x="757.5" y="150.44" width="6" height="6" fill="none" stroke="#C82930"/>
+ <text x="769.5" y="156.6479" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="156">configHolder : ConfigHolder</text>
+ <line x1="750.5" x2="1015.5" y1="163.24" y2="163.24" stroke="#A80036" stroke-width="1.5"/>
+ <rect x="757.5" y="171.24" width="6" height="6" fill="#F24D5C" stroke="#C82930"/>
+ <text x="769.5" y="177.4526" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="186">loadConfig(): Promise&lt;boolean&gt;</text>
+ <rect x="757.5" y="184.05" width="6" height="6" fill="#F24D5C" stroke="#C82930"/>
+ <text x="769.5" y="190.2573" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="143">init(): Promise&lt;boolean&gt;</text>
+ <ellipse cx="760.5" cy="199.85" rx="3" ry="3" fill="#84BE84" stroke="#038048"/>
+ <text x="769.5" y="203.062" fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="131">start(): Promise&lt;void&gt;</text>
+ <!--MD5=[99f32fa4e73f6681c1a0ac5117bd3ce1]
+class Array-->
+ <rect id="Array" x="1935" y="583" width="64" height="48" fill="#FEFECE" filter="url(#faqp5bga4g3xl)" stroke="#A80036" stroke-width="1.5"/>
+ <ellipse cx="1950" cy="599" rx="11" ry="11" fill="#ADD1B2" stroke="#A80036"/>
+ <path d="m1952.3 594.67 0.1718 0.0781c0.2188-0.3125 0.4219-0.4062 0.7188-0.4062s0.5781 0.1406 0.7344 0.4062c0.0937 0.1563 0.1093 0.2813 0.1093 0.7188v1.4218c0 0.4219-0.0312 0.6094-0.1406 0.7657-0.1719 0.2187-0.4375 0.3593-0.7031 0.3593-0.2188 0-0.4531-0.1093-0.5938-0.25-0.1406-0.125-0.1718-0.25-0.2343-0.6562-0.0938-0.4063-0.2657-0.625-0.75-0.9063-0.4688-0.25-1.0782-0.4062-1.6563-0.4062-1.7344 0-2.9844 1.3125-2.9844 3.0937v1.0938c0 1.7031 1.2969 2.7969 3.3438 2.7969 0.7656 0 1.4531-0.125 1.875-0.3907 0.1875-0.0937 0.1875-0.0937 0.6406-0.5781 0.1875-0.1875 0.3906-0.2656 0.6094-0.2656 0.4687 0 0.8594 0.3906 0.8594 0.8437 0 0.3907-0.3282 0.8438-0.9063 1.25-0.75 0.5469-1.9062 0.8438-3.125 0.8438-2.8906 0-5-1.8906-5-4.4688v-1.125c0-2.7187 2-4.7968 4.625-4.7968 0.875 0 1.4688 0.1406 2.4063 0.5781z"/>
+ <text x="1964" y="603.1543" fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="32">Array</text>
+ <g stroke="#A80036">
+  <line x1="1936" x2="1998" y1="615" y2="615" stroke-width="1.5"/>
+  <line x1="1936" x2="1998" y1="623" y2="623" stroke-width="1.5"/>
+  <g>
+   <!--MD5=[ccc04b8595734d76aa88ba0088105582]
+link Subscription to App-->
+   <path id="Subscription-&gt;App" d="m2334.2 656.64c14 24.168 31.2 53.865 46.73 80.668" fill="none"/>
+   <polygon points="2383.6 741.93 2382.5 732.14 2381.1 737.6 2375.6 736.14" fill="#A80036"/>
+   <!--MD5=[c710ea31b188414d8c153051088322c1]
+link Notification to Subscription-->
+   <path id="Notification-&gt;Subscription" d="m2211.7 472.26c19.68 27.909 40.28 57.115 57.18 81.09" fill="none"/>
+   <polygon points="2271.8 557.45 2269.9 547.79 2268.9 553.37 2263.3 552.4" fill="#A80036"/>
+   <!--MD5=[d59cd7c8d8c1c44626d6af0265ee5b9b]
+link Notification to Array-->
+   <path id="Notification-&gt;Array" d="m2066.4 472.26c-28.89 38.857-59.66 80.229-79.19 106.5" fill="none"/>
+   <polygon points="1984.2 582.83 1992.8 578.01 1987.2 578.83 1986.4 573.23" fill="#A80036"/>
+   <!--MD5=[d0259a683ce40675d0aeae665cbb280d]
+link Notification to Action-->
+   <path id="Notification-&gt;Action" d="m2131.6 472.26c-2.59 27.563-5.3 56.391-7.54 80.196" fill="none"/>
+   <polygon points="2123.6 557.45 2128.4 548.87 2124 552.47 2120.4 548.12" fill="#A80036"/>
+   <!--MD5=[57f68ba381a209655d14b99452ce3f1a]
+link Request to Session-->
+   <path id="Request-&gt;Session" d="m1735.7 401.64c3.88 31.317 10.17 82.035 15.51 125.11" fill="none"/>
+   <polygon points="1751.8 531.96 1754.7 522.53 1751.2 527 1746.7 523.52" fill="#A80036"/>
+   <!--MD5=[ef39ac4fb6186b62e0565e19bf4d4de8]
+link AuthMiddleware to Array-->
+   <path id="AuthMiddleware-&gt;Array" d="m1931.7 414.1c8.67 47.223 22.51 122.53 30.01 163.34" fill="none"/>
+   <polygon points="1962.7 582.73 1965 573.16 1961.8 577.82 1957.2 574.61" fill="#A80036"/>
+   <!--MD5=[d5949337599ab3606d0379306eb67f89]
+link AuthMiddleware to Session-->
+   <path id="AuthMiddleware-&gt;Session" d="m1894.7 414.1c-21.93 31.485-52.56 75.453-78.96 113.36" fill="none"/>
+   <polygon points="1812.8 531.58 1821.3 526.49 1815.7 527.48 1814.7 521.91" fill="#A80036"/>
+   <!--MD5=[21bcb7a78984d1f6e2d5a329649e2b0b]
+link Handler to express.Router-->
+   <path id="Handler-&gt;express.Router" d="m658.7 152.22c19.796 20.295 45.781 43.3 73.302 57.784 103.03 54.223 162.28-10.417 255 60 23.72 18.012 38.54 49.347 46.74 72.15" fill="none"/>
+   <polygon points="1035.4 346.88 1036.2 337.06 1033.7 342.16 1028.7 339.69" fill="#A80036"/>
+   <!--MD5=[366fb64c45e37667a03be65fba640dbc]
+link Handler to Log-->
+   <path id="Handler-&gt;Log" d="m656.84 152.24c19.764 20.961 46.285 44.561 75.159 57.755 203.57 93.022 295.81-31.659 500 60 21.77 9.774 42.36 25.258 59.85 41.148" fill="none"/>
+   <polygon points="1295.8 314.76 1291.9 305.71 1292.1 311.36 1286.4 311.58" fill="#A80036"/>
+   <!--MD5=[09d570ff4da29279ee462f97d48974ab]
+link HopperApp to express.Application-->
+   <path id="HopperApp-&gt;express.Application" d="m1016.7 199.98c27.63 21.395 55.54 45.255 79.33 70.021 21.14 22.013 40.43 51.092 53.2 72.215" fill="none"/>
+   <polygon points="1151.8 346.6 1150.6 336.82 1149.3 342.31 1143.8 340.93" fill="#A80036"/>
+   <!--MD5=[9ab9da89b1babb9c85baf5cb1a03a2b4]
+link HopperApp to GeneralHandler-->
+   <path id="HopperApp-&gt;GeneralHandler" d="m749.24 202.63c-6.054 2.707-12.148 5.184-18.243 7.37-235.62 84.495-336.78-53.276-560 60-21.601 10.962-40.574 29.336-55.528 47.365" fill="none"/>
+   <polygon points="112.15 321.45 120.93 316.99 115.31 317.57 114.73 311.94" fill="#A80036"/>
+   <!--MD5=[87f9cd8c0f33edbb91d4ac6f2f924ad6]
+link HopperApp to SPHandler-->
+   <path id="HopperApp-&gt;SPHandler" d="m790.55 210.15c-31.467 34.089-65.607 71.074-93.114 100.87" fill="none"/>
+   <polygon points="693.78 314.99 702.82 311.09 697.17 311.32 696.94 305.67" fill="#A80036"/>
+   <!--MD5=[2539d4ab58cea71dade55006491d72dc]
+link HopperApp to UserHandler-->
+   <path id="HopperApp-&gt;UserHandler" d="m749.13 202.32c-6.022 2.793-12.078 5.373-18.128 7.681-170.01 64.866-248.08-32.122-405 60-21.52 12.633-39.132 33.817-52.054 53.444" fill="none"/>
+   <polygon points="271.1 327.87 279.33 322.47 273.81 323.66 272.61 318.13" fill="#A80036"/>
+   <!--MD5=[54dfd7ffa2fb787e43402ba2311f050b]
+link HopperApp to NotificationHandler-->
+   <path id="HopperApp-&gt;NotificationHandler" d="m875.3 210.15c-2.777 36.106-5.805 75.46-8.16 106.08" fill="none"/>
+   <polygon points="866.73 321.46 871.41 312.79 867.12 316.48 863.43 312.18" fill="#A80036"/>
+   <!--MD5=[4c3beb9a50c5a668b4572b254b8aceca]
+link HopperApp to SubscriptionHandler-->
+   <path id="HopperApp-&gt;SubscriptionHandler" d="m749.44 200.59c-6.158 3.31-12.321 6.466-18.441 9.411-77.506 37.302-109.63 16.775-184 60-19.396 11.274-38.303 26.421-54.816 41.512" fill="none"/>
+   <polygon points="488.48 314.93 497.81 311.77 492.15 311.54 492.38 305.89" fill="#A80036"/>
+   <!--MD5=[2900fe5f0b00b6f9fe206acceca68566]
+link HopperApp to AuthMiddleware-->
+   <path id="HopperApp-&gt;AuthMiddleware" d="m1016.7 123.66c222.74 24.282 658.91 78.824 797.27 146.34 26.53 12.946 51.31 34.285 70.61 53.934" fill="none"/>
+   <polygon points="1888.4 327.84 1885 318.59 1884.9 324.25 1879.3 324.17" fill="#A80036"/>
+   <!--MD5=[053098867ab942db51a012c4b933c254]
+link HopperApp to Log-->
+   <path id="HopperApp-&gt;Log" d="m1016.7 160.36c67.09 27.951 148.16 65.902 215.33 109.64 18.32 11.925 36.7 26.699 53.15 41.197" fill="none"/>
+   <polygon points="1289.3 314.88 1285.2 305.9 1285.6 311.55 1279.9 311.88" fill="#A80036"/>
+   <!--MD5=[a731c3c2800836e97c7b43dc516d1a7c]
+link HopperApp to ConfigHolder-->
+   <path id="HopperApp-&gt;ConfigHolder" d="m1016.5 126.95c121.42 19.965 302.09 61.359 439.47 143.05 12.98 7.719 25.4 17.622 36.76 28.184" fill="none"/>
+   <polygon points="1496.6 301.79 1492.8 292.7 1492.9 298.36 1487.3 298.52" fill="#A80036"/>
+  </g>
+ </g>
+ <g fill="none" stroke="#A80036">
+  <!--MD5=[9e443dc0389c31e83114fc7bb7026a82]
+reverse link mongoose.Document to User-->
+  <path id="mongoose.Document&lt;-User" d="m2351.7 152.6c10.05 44.323 25.84 113.89 36.84 162.36"/>
+  <polygon points="2344.8 154.13 2347.2 133.07 2358.5 151.03"/>
+  <!--MD5=[c48fb9cbd61ccf6a1c0422e7834c451b]
+reverse link mongoose.Document to Subscription-->
+  <path id="mongoose.Document&lt;-Subscription" d="m2334.9 153.21c-4.99 32.125-11.38 77.082-14.93 116.79-9.12 102.06-12.32 222.1-13.42 287.5"/>
+  <polygon points="2328 151.89 2338.1 133.24 2341.9 154.09"/>
+  <!--MD5=[9b01937925a5f5a05409d71430acef37]
+reverse link mongoose.Document to Notification-->
+  <path id="mongoose.Document&lt;-Notification" d="m2311.7 149.21c-24.72 31.976-60.76 78.587-93.35 120.75"/>
+  <polygon points="2306.4 144.62 2324.2 133.07 2317.5 153.18"/>
+  <!--MD5=[ac9644d4c6eea93a514d8be953c3bb29]
+reverse link mongoose.Document to App-->
+  <path id="mongoose.Document&lt;-App" d="m2364.3 150.62c11.46 19.051 26.42 41.448 42.67 59.378 28.66 31.632 56.51 21.526 75 60 74.86 155.76 12.32 365.22-29.28 471.7"/>
+  <polygon points="2358.3 154.12 2354.3 133.31 2370.4 147.11"/>
+  <!--MD5=[0b306704cc5748c9a9e25467002e0d2d]
+reverse link Handler to UserHandler-->
+  <path id="Handler&lt;-UserHandler" d="m511.55 156.08c-58.822 27.758-130.23 66.849-185.55 113.92-19.357 16.473-36.981 38.549-50.469 57.769"/>
+  <polygon points="508.68 149.69 529.77 147.65 514.55 162.4"/>
+  <!--MD5=[275737ff6320b19ad903342a136beaef]
+reverse link Handler to SubscriptionHandler-->
+  <path id="Handler&lt;-SubscriptionHandler" d="m580.3 168.6c-31.173 43.809-73.503 103.3-104.06 146.25"/>
+  <polygon points="574.77 164.3 592.07 152.06 586.18 172.42"/>
+  <!--MD5=[41b14c7b1e47794366ad31fe67f769c6]
+reverse link Handler to SPHandler-->
+  <path id="Handler&lt;-SPHandler" d="m627.02 172.13c3.508 43.436 8.151 100.92 11.528 142.73"/>
+  <polygon points="620.03 172.56 625.4 152.06 633.98 171.43"/>
+  <!--MD5=[54fa1b0cd35a6112e25b6549cb87aee2]
+reverse link Handler to NotificationHandler-->
+  <path id="Handler&lt;-NotificationHandler" d="m674.81 166.97c42.815 46.19 102.5 110.59 143.1 154.38"/>
+  <polygon points="669.45 171.49 660.99 152.06 679.72 161.97"/>
+  <!--MD5=[753506548ce492df9f5d4057b0002e81]
+reverse link Handler to GeneralHandler-->
+  <path id="Handler&lt;-GeneralHandler" d="m510.11 133.43c-95.769 23.703-234.36 66.934-339.11 136.57-20.721 13.775-39.884 33.287-55.227 51.424"/>
+  <polygon points="508.49 126.62 529.57 128.74 511.77 140.23"/>
+  <!--MD5=[eaf60812ace8f3cbc14ecd49b4a92e7f]
+@startuml
+class Log{
+  -module : any
+  -maxModuleLength : any
+  +info(message: string): void
+  +warn(message: string): void
+  +error(message: string): void
+}
+
+class ConfigHolder{
+  +dbHost : string
+  +dbUser : string
+  +dbPassword : string
+  +dbName : string
+  +dbPort : number
+  +startBackend : boolean
+  +port : number
+}
+
+class User{
+  +_id : string
+  +email : string
+  +password : string
+  +firstName : string
+  +lastName : string
+}
+
+class mongoose.Document{
+
+}
+
+class Subscription{
+  +_id : string
+  +userId : string
+  +accountName : string
+  +app : App
+}
+
+class SubscribeRequest{
+  +id : string
+  +callback : string
+  +name : string
+  +requestedInfos : string[]
+  +fromRequestBody(json: any): SubscribeRequest
+}
+
+class Session{
+  +id : string
+  +userId : string
+  -expTs : number
+  +MAX_AGE : number
+  +create(userId: string): Session
+  +findById(id: string): Session | undefined
+  +deleteExpired(): void
+  +deleteAssociated(userId: string): void
+}
+
+class Notification{
+  +_id : string
+  +userId : string
+  +heading : string
+  +subscription : Subscription
+  +timestamp : number
+  +imageUrl : string
+  +isDone : any
+  +isSilent : boolean
+  +isArchived : boolean
+  +type : string
+  +content : string
+  +actions : Array<Action>
+}
+
+class App{
+  +_id : string
+  +name : string
+  +imageUrl : string
+  +isHidden : boolean
+  +baseUrl : string
+  +manageUrl : string | undefined
+  +cert : string
+}
+
+class Action{
+  +type : string
+  +url : string
+  +markAsDone : boolean
+  +text : string
+}
+
+interface Request{
+  +session : Session
+}
+
+class AuthMiddleware{
+  -sessions : Array<Session>
+  +auth(): express.Handler
+  +daemon(): void
+}
+
+class Handler{
+  #router : express.Router
+  -logger : Log
+  +getRouter(): express.Router
+}
+
+class UserHandler{
+  -getUser : any
+  -putUser : any
+  -deleteUser : any
+}
+
+class SubscriptionHandler{
+  -getApp : any
+  -getSubscriptions : any
+  -deleteSubscription : any
+  -getSubscribeRequest : any
+  -postSubscribeRequest : any
+}
+
+class SPHandler{
+  -postApp : any
+  -putApp : any
+  -postNotification : any
+  -putNotification : any
+  -deleteNotification : any
+}
+
+class NotificationHandler{
+  -getNotifications : any
+  -markNotificationsAsDone : any
+  -markNotificationsAsUndone : any
+  -deleteNotifications : any
+}
+
+class GeneralHandler{
+  -ping : any
+  -login : any
+  -register : any
+  -forgetPassword : any
+}
+
+class HopperApp{
+  -server : express.Application
+  -generalHandler : GeneralHandler
+  -spHandler : SPHandler
+  -userHandler : UserHandler
+  -notificationHandler : NotificationHandler
+  -subscriptionHandler : SubscriptionHandler
+  -authMiddleware : AuthMiddleware
+  -log : Log
+  -configHolder : ConfigHolder
+  -loadConfig(): Promise<boolean>
+  -init(): Promise<boolean>
+  +start(): Promise<void>
+}
+
+Subscription - -> App
+Notification - -> Subscription
+Notification - -> Array
+Notification - -> Action
+Request - -> Session
+AuthMiddleware - -> Array
+AuthMiddleware - -> Session
+Handler - -> express.Router
+Handler - -> Log
+HopperApp - -> express.Application
+HopperApp - -> GeneralHandler
+HopperApp - -> SPHandler
+HopperApp - -> UserHandler
+HopperApp - -> NotificationHandler
+HopperApp - -> SubscriptionHandler
+HopperApp - -> AuthMiddleware
+HopperApp - -> Log
+HopperApp - -> ConfigHolder
+mongoose.Document <|- - User
+mongoose.Document <|- - Subscription
+mongoose.Document <|- - Notification
+mongoose.Document <|- - App
+Handler <|- - UserHandler
+Handler <|- - SubscriptionHandler
+Handler <|- - SPHandler
+Handler <|- - NotificationHandler
+Handler <|- - GeneralHandler
+@enduml
+
+PlantUML version 1.2019.12(Sun Nov 03 10:24:54 UTC 2019)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.7.0_25-b15
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: US
+-->
+ </g>
+</svg>
