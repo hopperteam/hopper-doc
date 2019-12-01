@@ -1,27 +1,27 @@
 # Software Architecture Document
 
 # Table of Contents
-- [Introduction](#1-introduction)
-    - [Purpose](#11-purpose)
-    - [Scope](#12-scope)
-    - [Definitions, Acronyms and Abbreviations](#13-definitions-acronyms-and-abbreviations)
-    - [References](#14-references)
-    - [Overview](#15-overview)
-- [Architectural Representation](#2-architectural-representation)
-- [Architectural Goals and Constraints](#3-architectural-goals-and-constraints)
-- [Use-Case View](#4-use-case-view)
-    - [Use-Case Realizations](#41-use-case-realizations)
-- [Logical View](#5-logical-view)
-    - [Overview](#51-overview)
-    - [Architecturally Significant Design Packages](#52-architecturally-significant-design-packages)
-- [Process View](#6-process-view)
-- [Deployment View](#7-deployment-view)
-- [Implementation View](#8-implementation-view)
-    - [Overview](#81-overview)
-    - [Layers](#82-layers)
-- [Data View](#9-data-view)
-- [Size and Performance](#10-size-and-performance)
-- [Quality](#11-quality)
+- [1. Introduction](#1-introduction)
+  * [1.1 Purpose](#11-purpose)
+  * [1.2 Scope](#12-scope)
+  * [1.3 Definitions, Acronyms and Abbreviations](#13-definitions--acronyms-and-abbreviations)
+  * [1.4 References](#14-references)
+  * [1.5 Overview](#15-overview)
+- [2. Architectural Representation](#2-architectural-representation)
+- [3. Architectural Goals and Constraints](#3-architectural-goals-and-constraints)
+  * [3.1 Server-side](#31-server-side)
+  * [3.2 Client-side](#32-client-side)
+- [4. Use-Case View](#4-use-case-view)
+  * [4.1 Use-Case Realizations](#41-use-case-realizations)
+- [5. Logical View](#5-logical-view)
+  * [5.1 Overview](#51-overview)
+  * [5.2 Architecturally Significant Design Packages](#52-architecturally-significant-design-packages)
+- [6. Process View](#6-process-view)
+- [7. Deployment View](#7-deployment-view)
+- [8. Implementation View](#8-implementation-view)
+- [9. Data View](#9-data-view)
+- [10. Size and Performance](#10-size-and-performance)
+- [11. Quality/Metrics](#11-quality-metrics)
 
 ## 1. Introduction
 
@@ -64,28 +64,31 @@ This document contains the Architectural Representation, Goals and Constraints a
 as the Logical, Deployment, Implementation and Data Views.
 
 ## 2. Architectural Representation
-Android MVP-Pattern:
+We are using ReactJS by facebook. It is built on a custom architecture called flux. Flux is a modified and extended version of the MVC pattern.
 
-![Android MVP-Pattern](./MVCPatternClient.png)
+![flux architecture](https://github.com/facebook/flux/raw/master/img/flux-diagram-white-background.png)
+
+Documentation of flux can be found [here](https://github.com/facebook/flux).
 
 ## 3. Architectural Goals and Constraints
-Both client and server use the MVC/MVP pattern. We seperate models from controllers and views as described in the following paragraphs.
+Both client and server use the MVC pattern. The data is synchronized via a sync-layer, which uses custom logic to load only the required data from the backend into the frontend. 
 
-### Server-side
-The server-side is written in [go](https://golang.org/) and uses the [goswagger](https://goswagger.io/) framework to create a RESTful API and the firebase SDK to authenticate users. The REST API, presented to the client itself, returns a JSON-"View" of models. The communication with the client happens over HTTP `POST`/`GET` requests which are handled by controllers. This way the server uses an MVC-like structure.
+### 3.1 Server-side
+The server is implemented in NodeJS. It provides a RESTful API which represents the "View" and the "Controller" aspect of the MVC model. The `GET`-requests represent the view part of the model. They are not views in the traditional way, but they are a method to display the data, which is why we classify them as a view. Any `POST`, `PUT` and `DELETE` requests.represent the controller part. They can control the data in the model and implement specific actions (e.g. notifying the user when a new notification occurs). That means the view and the controller are implemented in the same classes, in the so-called `Handler`s.
 
-### Client-side
-On the client side, which will be written in Java, we use the Android MVP framework and an API framework which is auto-generated using [swagger-codegen](https://swagger.io/swagger-codegen/). The API framework is used to communicate with the WGPlaner server. Furthermore, the firebase SDK is used to authenticate users.
+The model is implemented via [Mongoose](https://mongoosejs.com/), which is a `ODM`-Tool. That means mongoose handles all database connections and we can query data directly from the specific classes. `ODM` is the document-based counterpart for `ORM`.
 
-#### MVP
-The main goal of the MVP architecture is to separate the view from the logic. Therefore, the view does not implement the logic, but gets all the precompiled information from the controller.
-Models contain the data that is displayed in the views.
+### 3.2 Client-side
+The hopper client is implemented in TypeScript with ReactJS. That means it does not have a classic ERM model, but a much more complicated model called `flux`. To explain flux would exceed the scope of this document.
+
+To summarize: There are four main compontents in the application: The `Actions` and the `Dispatcher` (which represent the controller in a classic MVC model) manage user interaction. The `Store` (which represents the model aspect) holds the data and notifies the view about changes. The view is represented by the `React Views`.
 
 ## 4. Use-Case View
-![Overall-Use-Case-Diagram](../SRS/use_case_diagram.png)
+![Overall-Use-Case-Diagram](../img/ucd.svg)
 
 ### 4.1 Use-Case Realizations
-n/a
+One example use case realization is the [filter-for-sp use case](./uc-filter-for-sp.md). 
+When the user clicks on a SP filter, the `Dispatcher` dispatches an event to the `Store`. The `Store` stores the selected SP and sends an update event to the view. The view requests notifications from the selected SP and displays them. When there are not enough notifications downloaded from the backend, an action is created to communicate with the backend and load more notifications. When the loading is finished, the notifications are integrated into the `Store`, which sends an update event to the view. This could process repeats.
 
 ## 5. Logical View
 
@@ -93,59 +96,38 @@ n/a
 
 ### 5.2 Architecturally Significant Design Packages
 
-This image represents the logical view at our MVP Implementation:
+This is our UML diagram, in which the different parts are colorized.
 
-![MVP-Pattern Client](./MVCClassFlow.png)
+Legend:
+color  | meaning
+-------|--------
+purple | model
+light blue | view
+green  | controller
+yellow | controller + view combined (as explained in 3)
 
-Android Client:
+Backend:
+![UML Backend](./img/backend-uml-mvc.svg)
 
-![Class diagram with MVP-Pattern](../UC/ClassDiagrams/class_diagram_android_min.png)
+Frontend:
+![UML Frontend](./img/frontend-uml-mvc.svg)
 
 ## 6. Process View
-![Android Process View](./ProcessView.png)
+(n/a)
 
 ## 7. Deployment View
-![Deployment View](./DeploymentView.png)
-
-<!-- TODO: https://github.com/anonfreak/bestplaces/blob/master/doku/SoftwareArchitectureDocument.md#deployment-view -->
+![Deployment View](./img/deployment.svg)
 
 ## 8. Implementation View
-
-### 8.1 Overview
-
-### 8.2 Layers
-
-### 8.3 Android - Observer Pattern
-We decided to use the observer pattern because it fits into the android eco system. In this pattern an object (subject) maintains a list of its dependents (observers) and notifies them automatically of any state changes.  
-For the android application we use it for notifying the UI about data changes, as callbacks for network operations and of course for button clicks, etc.
-
-### 8.4 Server - Builder Pattern
-We use the builder pattern because of Go's limitations as it is not an object oriented programming language. By using a builder, we can assure that all fields are set when the object is created. For Information can be found on [Wikipedia](https://en.wikipedia.org/wiki/Builder_pattern).
-
-### Links to Code
-You can find a commit, that implements the builder pattern here (before/after):
-https://github.com/WGPlaner/wg_planer_server/commit/308833bc14828ea5cd1afecdd9b75b62005ba885
-
+(n/a)
 
 ## 9. Data View
-Database ER-Diagram:
+Database Schema:
 
-![Databse ER-Diagram](../UC/ClassDiagrams/class_diagram_models.png)
+![Databse Schema](./img/dbschema.png)
 
 ## 10. Size and Performance
-n/a
+(n/a)
 
 ## 11. Quality/Metrics
-We made sure that a metrics tool is used as part of our deployment process on GitHub. Each pull request/commit is checked by codacy as described in our [Test Plan](../TestPlan/TestPlan.md). Furthermore each commit is checked by sonarqube. The overview page of sonarqube can be found on [sonarcloud.io](https://sonarcloud.io/dashboard?id=wg_planer%3Aapp)
-
-Because of codacy and sonarqube, we were able to improve our code quality. We focused on:
-
- - Incrementing Test Coverage. We ensure that already implemented use cases don’t break while developing new ones. That's because we regularly execute our unit tests during development using continuous integration.
- - Reducing the number of Bugs/Issues raised by SonarQube.
- - Reducing the amount of Code Smells which make code more difficult to maintain.
-
-The SonarQube Metrics as well as the codacy issues were very helpful with finding our problem spots!
-
-TODO: Before/After sonarqube.
-
-Sonarqube gives us lots of metrics we did not regard every one of them, e.g. "Comment Density" has proven to be unuseful as it can lead to bad and duplicated code, e.g. `int nol = 0; // number of lines`.
+(n/a)
