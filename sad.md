@@ -99,6 +99,7 @@ When the user clicks on a SP filter, the `Dispatcher` dispatches an event to the
 This is our UML diagram, in which the different parts are colorized.
 
 Legend:
+
 color  | meaning
 -------|--------
 purple | model
