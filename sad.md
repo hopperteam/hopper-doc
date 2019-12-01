@@ -84,7 +84,7 @@ The hopper client is implemented in TypeScript with ReactJS. That means it does 
 To summarize: There are four main compontents in the application: The `Actions` and the `Dispatcher` (which represent the controller in a classic MVC model) manage user interaction. The `Store` (which represents the model aspect) holds the data and notifies the view about changes. The view is represented by the `React Views`.
 
 ## 4. Use-Case View
-![Overall-Use-Case-Diagram](../img/ucd.svg)
+![Overall-Use-Case-Diagram](./img/ucd.svg)
 
 ### 4.1 Use-Case Realizations
 One example use case realization is the [filter-for-sp use case](./uc-filter-for-sp.md). 
