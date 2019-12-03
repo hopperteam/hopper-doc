@@ -42,6 +42,6 @@
 ## `SubscribeRequest`
   - `id: number` _App Id_
   - `callback: string(url)`: _Callback to be called after success or failure, has to be in the app's base URL_
-  - `name: string`: _The display name for this specific subscription (probably the account name)_
+  - `accountName?: string`: _The display name for this specific subscription (probably the account name)_
   - `requestedInfos: string[]`
  
