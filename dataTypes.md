@@ -35,7 +35,7 @@
   - `manageUrl: string?`
   
 ## `Subscription`
-  - `subscriptionId: string`
+  - `id: string`
   - `accountName?: string`
   - `app: App`
 
