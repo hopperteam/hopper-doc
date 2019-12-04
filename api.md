@@ -30,7 +30,7 @@ from this point on, any request requires a valid session
 ### `DELETE /notifications (id: string)`
 
 ### `WebSocket /ws`
-
+WebSocket sync, see [webSocketSync.md](./webSocketSync.md)
 ## App (=Service Provider) Management
 ### `GET /subscriptions`
 Returns all subscriptions the user is subscribed to.
