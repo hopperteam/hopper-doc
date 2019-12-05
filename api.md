@@ -45,21 +45,22 @@ Returns the specified app information.
 ### `POST /app (name: string, baseUrl: string, imageUrl: string, manageUrl: string, cert: string)` 
 `cert` is a base64 encoded PEM-RSA Public Key. The private key is for authentication of the SP to the backend.
 
-### `PUT /app (id: string, data: string)`
-`data` is a JSON-Object which is encrypted with the private key of the app and base64 encoded. It has to contain the `id` of the app again.
-
-Updatable fields are:
+### `PUT /app (id: string, content: string)`  
+`content` is a stringified JSON-Object containing the `verify` and `data` attribute which is base64 encoded.   
+`data` is a JSON-Object containing the fields that want to be updated. Updatable fields are:
   - `name`
   - `imageUrl`
   - `manageUrl`
-  - `cert`
+  - `cert` 
+  
+`verify` is a encrypted, using the private key of the app, sha256 hash of the stringified `data` object.
 
 ### `POST /notification (subscriptionId: string, notification: Notification)`
 ### `PUT /notification (id: string, notification?*: Notification)`
 ### `DELETE /notification (id: string)`
 
-### `GET /subscribeRequest (id: string, data: string): SubscribeRequest`
-### `POST /subscribeRequest (id: string, data: string): string`
+### `GET /subscribeRequest (id: string, content: string): SubscribeRequest`
+### `POST /subscribeRequest (id: string, content: string): string`
 
 ## Subscribe Process
 Navigate the user to `GET {{HOPPER-URL}}/subscribe (id: number, request: string)`
