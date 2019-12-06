@@ -29,10 +29,10 @@
   - `id: string`
   - `name: string`
   - `imageUrl: string`
-  - `isActive: boolean`
   - `isHidden: boolean`
   - `baseUrl: string`
   - `manageUrl: string?`
+  - `contactEmail: string`
   
 ## `Subscription`
   - `id: string`
