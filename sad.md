@@ -48,16 +48,18 @@ This document describes the architecture of the hopper project.
 
 | Title                                                              | Date       | Publishing organization     |
 | -------------------------------------------------------------------|:----------:| -------------------------   |
-| [Hopper Blog](https://blog.hoppercloud.net/)                       | 2017-11-26 | The hopper team             |
-| [GitHub - Server](https://github.com/hopperteam/hopper-server)     | 2018-06-11 | The hopper team             |
-| [GitHub - Documentation](https://github.com/hopperteam/hopper-doc) | 2018-06-11 | The hopper team             |
-| [UC Filter for SP](uc-filter-for-sp.md)                            | 2017-12-06 | The hopper team             |
-| [UC Set Notification Done](uc-set-notification-done.md)            | 2017-12-06 | The hopper team             |
-| [UC Invite New Group Member](../UC/UC_Invite_New_Group_Member.md)  | 2017-12-06 | The hopper team             |
-| [SRS](srs.md)                                                      | 2017-11-26 | The hopper team             |
-| [API Documentation](api.md)                                        | 2017-11-26 | The hopper team             |
-| [API Data Types](dataTypes.md)                                     | 2017-11-26 | The hopper team             |
-| [Subscription Process Documentation](subscriptionProcess.md)       | 2017-11-26 | The hopper team             |
+| [Hopper Blog](https://blog.hoppercloud.net/)                       | 2019-12-07 | The hopper team             |
+| [GitHub - Server](https://github.com/hopperteam/hopper-server)     | 2019-12-07 | The hopper team             |
+| [GitHub - Documentation](https://github.com/hopperteam/hopper-doc) | 2019-12-07 | The hopper team             |
+| [UC Filter for SP](uc-filter-for-sp.md)                            | 2019-12-07 | The hopper team             |
+| [UC Set Notification Done](uc-set-notification-done.md)            | 2019-12-07 | The hopper team             |
+| [UC Delete Notification](uc-delete-notification.md)                | 2019-12-07 | The hopper team             |
+| [UC Create Notification](uc-create-notification.md)                | 2019-12-07 | The hopper team             |
+| [UC Subscribe to App](uc-subscribe-to-app.md)                      | 2019-12-07 | The hopper team             |
+| [SRS](srs.md)                                                      | 2019-12-07 | The hopper team             |
+| [API Documentation](api.md)                                        | 2019-12-07 | The hopper team             |
+| [API Data Types](dataTypes.md)                                     | 2019-12-07 | The hopper team             |
+| [Subscription Process Documentation](subscriptionProcess.md)       | 2019-12-07 | The hopper team             |
 
 ### 1.5 Overview
 This document contains the Architectural Representation, Goals and Constraints as well 

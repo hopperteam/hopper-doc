@@ -104,16 +104,22 @@ Create an user in the backend
 User logs in, after that a session has to be created
 #### 3.1.3 Reset user password
 The user forgets his password, the password has to be reset
-#### 3.1.4 Register SP in Backend
-Before a SP has to register before users can subscribe 
-#### 3.1.5 Subscribe user to SP
-The user can subscribe to a SP (authentication is important)
-#### 3.1.6 Unsubscribe user from SP
-User will no longer receive notifications from that SP
+#### 3.1.4 Register app in Backend
+Before an app has to register before users can subscribe 
+#### 3.1.5 Subscribe user to app
+The user can subscribe to an app (authentication is important)
+
+[Use Case Documentation](./uc-subscribe-to-app.md)
+#### 3.1.6 Unsubscribe user from app
+User will no longer receive notifications from that app
 #### 3.1.7 Push notification
-A SP can push notifications to a user that has subscribed to it
+An app can push notifications to a user that has subscribed to it
+
+[Use Case Documentation](./uc-create-notification.md)
 #### 3.1.8 Delete notification
 The SP can delete the previously pushed notification
+
+[Use Case Documentation](./uc-delete-notification.md)
 #### 3.1.9 Update notification
 The SP can update the previously pushed notification
 #### 3.1.10 Mark notification as done
