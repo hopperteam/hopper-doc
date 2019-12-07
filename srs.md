@@ -16,9 +16,9 @@
     + [3.1.1 Create user](#311-create-user)
     + [3.1.2 Create user Session](#312-create-user-session)
     + [3.1.3 Reset user password](#313-reset-user-password)
-    + [3.1.4 Register SP in Backend](#314-register-sp-in-backend)
-    + [3.1.5 Subscribe user to SP](#315-subscribe-user-to-sp)
-    + [3.1.6 Unsubscribe user from SP](#316-unsubscribe-user-from-sp)
+    + [3.1.4 Register App in Backend](#314-register-app-in-backend)
+    + [3.1.5 Subscribe user to App](#315-subscribe-user-to-app)
+    + [3.1.6 Unsubscribe user from App](#316-unsubscribe-user-from-app)
     + [3.1.7 Push notification](#317-push-notification)
     + [3.1.8 Delete notification](#318-delete-notification)
     + [3.1.9 Update notification](#319-update-notification)
@@ -26,7 +26,7 @@
     + [3.1.11 Notify user](#3111-notify-user)
     + [3.1.12 Start action](#3112-start-action)
     + [3.1.13 Delete user](#3113-delete-user)   
-    + [3.1.14 Delete user](#3114-filter-for-sp)
+    + [3.1.14 Filter for App](#3114-filter-for-app)
   * [3.2 Usability](#32-usability)
     + [3.2.1 Usable in web browsers](#321-usable-in-web-browsers)
   * [3.3 Reliability](#33-reliability)
@@ -69,7 +69,6 @@ This software specification applies for the hopper server. Users will be able to
 |-----------------------|-----------------------------------------------------|
 | UC                    | Use Case                                            |
 | UCD                   | Use Case Diagram                                    |
-| SP                    | Service Provider (individual service e.g. Telegram) |  
 
 ### 1.4 References  
 
@@ -117,11 +116,11 @@ An app can push notifications to a user that has subscribed to it
 
 [Use Case Documentation](./uc-create-notification.md)
 #### 3.1.8 Delete notification
-The SP can delete the previously pushed notification
+The app can delete the previously pushed notification
 
 [Use Case Documentation](./uc-delete-notification.md)
 #### 3.1.9 Update notification
-The SP can update the previously pushed notification
+The app can update the previously pushed notification
 #### 3.1.10 Mark notification as done
 The user can mark a notification it received as done, it will not show on the overview page
 
@@ -132,10 +131,10 @@ The user can be notified of an incoming notification
 The user can start actions provided with the notifications
 #### 3.1.13 Delete user
 All user data can be deleted
-#### 3.1.14 Filter for SP
-Filter notifications for one specific SP
+#### 3.1.14 Filter for App
+Filter notifications for one specific app
 
-[Use Case Documentation](./uc-filter-for-sp.md)
+[Use Case Documentation](./uc-filter-for-app.md)
 
 ### 3.2 Usability
 #### 3.2.1 Usable in web browsers
@@ -149,7 +148,7 @@ The server is hosted by NetCup, outages caused by them cannot be accounted for.
 
 ### 3.4 Performance
 #### 3.4.1 Notification delivery time
-When a user is online, a notification that is pushed by a SP, should be delivered within one second.
+When a user is online, a notification that is pushed by a app, should be delivered within one second.
 
 ### 3.5 Supportability
 #### 3.5.1 Language Support
@@ -182,7 +181,7 @@ not applicable
 
 ### 3.10 Licensing Requirements
 #### 3.10.1 Licensing data from SPs
-Because we won't implement SPs that require licensing ourselves, we do not have to worry about licensing. When publishing a SP, you automatically grant all required licenses to hopper.
+Because we won't implement SPs that require licensing ourselves, we do not have to worry about licensing. When publishing a app, you automatically grant all required licenses to hopper.
 
 ### 3.11 Legal, Copyright and Other Notices
 (tbd)

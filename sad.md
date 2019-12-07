@@ -51,7 +51,7 @@ This document describes the architecture of the hopper project.
 | [Hopper Blog](https://blog.hoppercloud.net/)                       | 2019-12-07 | The hopper team             |
 | [GitHub - Server](https://github.com/hopperteam/hopper-server)     | 2019-12-07 | The hopper team             |
 | [GitHub - Documentation](https://github.com/hopperteam/hopper-doc) | 2019-12-07 | The hopper team             |
-| [UC Filter for SP](uc-filter-for-sp.md)                            | 2019-12-07 | The hopper team             |
+| [UC Filter for App](uc-filter-for-app.md)                            | 2019-12-07 | The hopper team             |
 | [UC Set Notification Done](uc-set-notification-done.md)            | 2019-12-07 | The hopper team             |
 | [UC Delete Notification](uc-delete-notification.md)                | 2019-12-07 | The hopper team             |
 | [UC Create Notification](uc-create-notification.md)                | 2019-12-07 | The hopper team             |
@@ -89,8 +89,8 @@ To summarize: There are four main compontents in the application: The `Actions` 
 ![Overall-Use-Case-Diagram](./img/ucd.svg)
 
 ### 4.1 Use-Case Realizations
-One example use case realization is the [filter-for-sp use case](./uc-filter-for-sp.md). 
-When the user clicks on a SP filter, the `Dispatcher` dispatches an event to the `Store`. The `Store` stores the selected SP and sends an update event to the view. The view requests notifications from the selected SP and displays them. When there are not enough notifications downloaded from the backend, an action is created to communicate with the backend and load more notifications. When the loading is finished, the notifications are integrated into the `Store`, which sends an update event to the view. This could process repeats.
+One example use case realization is the [filter-for-app use case](./uc-filter-for-app.md). 
+When the user clicks on an app filter, the `Dispatcher` dispatches an event to the `Store`. The `Store` stores the selected app and sends an update event to the view. The view requests notifications from the selected app and displays them. When there are not enough notifications downloaded from the backend, an action is created to communicate with the backend and load more notifications. When the loading is finished, the notifications are integrated into the `Store`, which sends an update event to the view. This could process repeats.
 
 ## 5. Logical View
 

@@ -31,7 +31,7 @@ from this point on, any request requires a valid session
 
 ### `WebSocket /ws`
 WebSocket sync, see [webSocketSync.md](./webSocketSync.md)
-## App (=Service Provider) Management
+## App Management
 ### `GET /subscriptions`
 Returns all subscriptions the user is subscribed to.
 
@@ -40,10 +40,10 @@ Returns all subscriptions the user is subscribed to.
 ### `GET /apps(id: string)`
 Returns the specified app information.
 
-# Backend - Service Provider Communication
+# Backend - App Communication
 
 ### `POST /app (name: string, baseUrl: string, imageUrl: string, manageUrl: string, cert: string)` 
-`cert` is a base64 encoded PEM-RSA Public Key. The private key is for authentication of the SP to the backend.
+`cert` is a base64 encoded PEM-RSA Public Key. The private key is for authentication of the app to the backend.
 
 ### `PUT /app (id: string, content: string)`  
 `content` is a stringified JSON-Object containing the `verify` and `data` attribute which is base64 encoded.   
@@ -51,6 +51,7 @@ Returns the specified app information.
   - `name`
   - `imageUrl`
   - `manageUrl`
+  - `contactEmail`
   - `cert` 
   
 `verify` is a encrypted, using the private key of the app, sha256 hash of the stringified `data` object.

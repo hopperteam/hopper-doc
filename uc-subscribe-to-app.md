@@ -1,7 +1,7 @@
 # 1 UC: Subscribe to app
 
 ## 1.1 Brief Description
-The user can subscribe to an app. The app has to redirect the user to hopper's subscription handler. The service provider will be notified about the result.
+The user can subscribe to an app. The app has to redirect the user to hopper's subscription handler. The app will be notified about the result.
 
 # 2 Flow of Events
 ## 2.1 Basic Flow

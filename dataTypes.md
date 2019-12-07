@@ -3,7 +3,7 @@
   - `id: string`
   - `heading: string` 
   - `subscription: string`
-  - `timestamp: number` 
+  - `timestamp: number` _in ms_
   - `imageUrl: string?`
   - `isDone: boolean` 
   - `isSilent: boolean` 
@@ -31,8 +31,8 @@
   - `imageUrl: string`
   - `isHidden: boolean`
   - `baseUrl: string`
-  - `manageUrl: string?`
-  - `contactEmail: string`
+  - `manageUrl: string?` _links to notification management of the app_
+  - `contactEmail: string` _contact for hopper team in case of problems_
   
 ## `Subscription`
   - `id: string`
