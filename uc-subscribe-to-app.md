@@ -27,7 +27,8 @@ When user accepts the request:
 (n/a)
 
 # 4 Preconditions
-(n/a)
+## 4.1 App is registered
+The app has to be registered as an app in hopper
 
 # 5 Postconditions
 ## 5.1 Subscription created
