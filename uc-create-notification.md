@@ -1,4 +1,4 @@
-# 1 UC: Subscribe to app
+# 1 UC: Create notification
 
 ## 1.1 Brief Description
 When a user has a subscription, he can receive notifications by the app on this subscription
