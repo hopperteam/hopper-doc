@@ -27,7 +27,7 @@ When the identity is verified, the user will see an UI which to login and give t
 The user is navigated to the callback, specified in the `SubscribeRequest`. The user will be navigated via an `GET` request, which will receive 2 of 3 query parameters: 
   - `status`: Either `"success"` or `"error"`
   - `error`: In case of `"error"`: The error message.
-  - `subscriptionId`: In case of `"success"`: The `subscriptionId`
+  - `id`: In case of `"success"`: The `subscriptionId`
   
 After that, the subscription process is done and the app can send notifications to the user using the `subscriptionId`.  
   
