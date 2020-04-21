@@ -25,7 +25,6 @@
     + [3.1.10 Mark notification as done](#3110-mark-notification-as-done)
     + [3.1.11 Notify user](#3111-notify-user)
     + [3.1.12 Start action](#3112-start-action)
-    + [3.1.13 Delete user](#3113-delete-user)   
     + [3.1.14 Filter for App](#3114-filter-for-app)
   * [3.2 Usability](#32-usability)
     + [3.2.1 Usable in web browsers](#321-usable-in-web-browsers)
@@ -91,8 +90,7 @@ We are introducing a way to overcome this challenge – with hopper. Hopper is a
 The majority of information streams are based on notifications. You receive them, usually on your phone, and try to keep track of them all. Hopper is a central place for your notifications. It keeps track of them and lets you filter them, to only keep track of what is really important to you.
 
 ### 2.2 Use Case Diagram
-![use case diagram](img/ucd.svg "Use Case Diagram")  
-*The scope for the timespan until December, is to implement the hopper server (what you see above). In the next development cycle (from April to June) we will implement some default service providers and a provider store.*
+![use case diagram](img/ucd2.svg "Use Case Diagram")  
 
 ## 3. Specific Requirements  
 
@@ -129,6 +127,7 @@ The user can mark a notification it received as done, it will not show on the ov
 The user can be notified of an incoming notification
 #### 3.1.12 Start action
 The user can start actions provided with the notifications
+[Use Case Documentation](./uc-start-actoin.md)
 #### 3.1.13 Delete user
 All user data can be deleted
 #### 3.1.14 Filter for App
