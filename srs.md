@@ -127,7 +127,8 @@ The user can mark a notification it received as done, it will not show on the ov
 The user can be notified of an incoming notification
 #### 3.1.12 Start action
 The user can start actions provided with the notifications
-[Use Case Documentation](./uc-start-actoin.md)
+
+[Use Case Documentation](./uc-start-action.md)
 #### 3.1.13 Delete user
 All user data can be deleted
 #### 3.1.14 Filter for App
