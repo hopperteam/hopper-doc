@@ -17,7 +17,7 @@ Instead, the user can mark the notification as "done", what makes them disappear
 ![Mockup](./mockups/hopper_main.png)
 
 ### 2.1.3 Narrative
-The productive gherkin file can be found [in the project](./../frontend/test/notification_done.feature).
+The productive gherkin file can be found [in the project](https://github.com/hopperteam/hopper-ui/blob/master/test/notification_done.feature).
 ````gherkin
 Feature: Mark notification as done
 
