@@ -13,15 +13,10 @@ Returns API info.
 
 `{"version": "1.0", "type": "dev"}`
 
-### `POST /login (email: string, password: string)`
-### `POST /register (email: string, password: string, firstName: string, lastName: string)`
-### `POST /forgetPassword (email: string)`
 ## User Management
 from this point on, any request requires a valid session
 
 ### `GET /user`
-### `PUT /user (email?: string, password?: string, firstName?: string, lastName?: string)`
-### `DELETE /user`
 
 ## Notification Management
 ### `GET /notifications (offset?: number, limit?: number, subscription?: string, includeDone?: boolean)`
