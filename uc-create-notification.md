@@ -11,6 +11,10 @@ When a user has a subscription, he can receive notifications by the app on this 
 ### 2.1.1 Activity Diagram
 ![Organization Application Activity Diagram](./img/uc-create-notification-flow.svg)
 
+### 2.1.2 Mock-up
+![Mockup](./mockups/hopper_main.png)
+
+
 ## 2.2 Alternative Flows
 (n/a)
 
