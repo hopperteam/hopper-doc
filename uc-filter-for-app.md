@@ -17,7 +17,7 @@ When the user selects one app, only notifications by this app should be visible.
 ![Mockup](./mockups/hopper_main.png)
 
 ### 2.1.3 Narrative
-The productive gherkin file can be found [in the project](./../frontend/test/filter_for_sp.feature).
+The productive gherkin file can be found [in the project](https://github.com/hopperteam/hopper-ui/blob/master/test/filter_for_sp.feature).
 ```gherkin 
 Feature: Filter for app
 

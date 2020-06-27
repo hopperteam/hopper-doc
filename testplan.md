@@ -219,4 +219,7 @@ Human Resources
 |---|---|---|
 | Unexpected failures in production | Cover all important functions in tests | Rollback deployment to last stable version |
 ## 13. Management Process and Procedures
-**n/a**
+### 13.1 Deployment (identical for all components)
+1. Run SonarCloud and Codacy runners to find metrics
+2. Run TeamCity's Docker build (builds the software, runs all tests, pushes the image to DockerHub)
+3. Deploy to Kubernetes cluster
