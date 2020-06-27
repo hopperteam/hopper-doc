@@ -10,7 +10,7 @@ When a user has a notification including actions, he can click on the actions to
 - Optional: Notification will be executed
 
 ### 2.1.1 Activity Diagram
-![Activity Diagram](./img/uc-start-action.svg)
+![Activity Diagram](./img/uc-start-action-flow.svg)
 
 ### 2.1.2 Mock-up
 ![Mockup](./mockups/hopper_main.png)
