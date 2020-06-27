@@ -14,6 +14,10 @@ The user can subscribe to an app. The app has to redirect the user to hopper's s
 ### 2.1.1 Activity Diagram
 ![Organization Application Activity Diagram](./img/uc-subscribe-to-app.svg)
 
+### 2.1.2 Mock-up
+![Mockup](./mockups/hopper_main.png)
+
+
 ## 2.2 Alternative Flows
 When user is not logged when redirected to subscription handler:
  - User will be redirected to login screen and can login sign up
